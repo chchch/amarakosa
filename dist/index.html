@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://tst-project.github.io/lib/css/tufte.css">
+    <style>
+body {
+}
+#cytoscape {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
+
+#blackout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+    display: none;
+}
+#textPopup {
+    max-width: 80%;
+    max-height: 80%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+    background: white;
+    font-size: 1.3rem;
+}
+
+#textboxen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#textboxen div {
+    flex: 1;
+    margin: 10px;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.desc {
+    font-style: italic;
+}
+.text {
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.highlit {
+    background-color: rgb(255,255,12);
+}
+#gramselector {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 15;
+    background: linear-gradient(rgba(255,255,255,1) 90%, rgba(255,255,255,0));
+}
+#gramselector span {
+    margin: 5px;
+    border-radius: 4px;
+    padding: 1px 3px 1px 3px;
+}
+#gramselector span:not(.selected):hover {
+    background: #ccc;
+}
+
+#gramselector span.selected {
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: default;
+}
+#overlay {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    font-size: 1.2rem;
+    background: rgba(255,255,248,0.8);
+}
+#search {
+    margin-bottom: 1rem;
+}
+    </style>
+  <script type="module" crossorigin src="./assets/index-6958a428.js"></script>
+</head>
+<body>
+    <div id="cytoscape"></div>
+    <div id="overlay">
+        <div id="search"><input type="text" id="searchbox" autocomplete="off" placeholder="Search sigla..."></div>
+        <div id="legend">
+            <div><span style="color: #666">&#9679;</span>  Sanskrit</div>
+            <div><span style="color: #a6cee3">&#9679;</span>  Hindi</div>
+            <div><span style="color: #1f78b4">&#9679;</span>  Kannada</div>
+            <div><span style="color: #b2df8a">&#9679;</span>  Nepali</div>
+            <div><span style="color: #33a02c">&#9679;</span>  Newar</div>
+            <div><span style="color: #fb9a99">&#9679;</span>  Malayalam</div>
+            <div><span style="color: #e31a1c">&#9679;</span>  Marathi</div>
+            <div><span style="color: #ff7f00">&#9679;</span>  Tamil</div>
+            <div><span style="color: #cab2d6">&#9679;</span>  Telugu</div>
+        </div>
+    </div>
+    <div id="blackout">
+        <div id="textPopup">
+            <div id="gramselector">
+                <span data-n="2grams" class="selected">2-akṣaras</span>
+                <span data-n="3grams">3-akṣaras</span>
+                <span data-n="4grams">4-akṣaras</span>
+                <span data-n="5grams">5-akṣaras</span>
+            </div>
+            <div id="textboxen">
+            <div id="textbox1"><div class="title"></div><div class="desc"></div><div class="text"></div></div>
+            <div id="textbox2"><div class="title"></div><div class="desc"></div><div class="text"></div></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
