@@ -1,0 +1,25 @@
+{
+  "name": "amarakosa1.1.1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "jaccard": "node jaccard.mjs",
+    "preptexts": "node preptexts.mjs",
+    "textstocsv": "node textstocsv.mjs",
+    "prepgrams": "node prepgrams.mjs"
+  },
+  "devDependencies": {
+    "csv-parse": "^5.3.3",
+    "js": "^0.1.0",
+    "path": "^0.12.7",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "cytoscape": "^3.23.0",
+    "hypher": "^0.2.5"
+  }
+}
