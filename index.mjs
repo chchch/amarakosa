@@ -1,4 +1,5 @@
-import cytoscape from 'cytoscape';
+import Cytoscape from 'cytoscape';
+//import Fcose from 'cytoscape-fcose';
 //import cola from 'cytoscape-cola';
 import Data from './data.json';
 import Texts from './texts.json';
@@ -6,6 +7,7 @@ import Grams from './grams.json';
 import Hypher from 'hypher';
 import { hyphenation_sa } from './sa.mjs';
 //cytoscape.use(cola);
+//Cytoscape.use(Fcose);
 
 const state = {
     texts: new Map(Texts),
@@ -18,7 +20,7 @@ const hyphenator = new Hypher(hyphenation_sa);
 const main = async function() {
     //const res = await fetch('./data.json');
     //const Data = await res.json();
-    const cy = cytoscape( {
+    const cy = Cytoscape( {
         container: document.getElementById('cytoscape'),
         elements: Data,
         wheelSensitivity: 0.2,
@@ -114,14 +116,22 @@ const main = async function() {
     tree.addClass('mst');
     const others = cy.$('edge').difference(tree);
     others.remove();
-    const layout = cy.layout({
+    const layout1 = cy.layout({
         name: 'cose',
         nodeDimensionsIncludeLabels: true,
-        numIter: 4000,
+        randomize: false,
+        //numIter: 4000,
+        //idealEdgeLength: edge => 50 / edge.data('dice'),
+        //edgeElasticity: edge => edge.data('dice') * 80
+        });
+    const layout2 = cy.layout({
+        name: 'cose',
+        nodeDimensionsIncludeLabels: true,
+        //numIter: 4000,
         idealEdgeLength: edge => 50 / edge.data('dice'),
         //edgeElasticity: edge => edge.data('dice') * 80
         });
-    layout.run();
+    layout1.run();
     cy.once('layoutstop',() => {
         /*cy.layout({
         name: 'cose',
@@ -130,7 +140,9 @@ const main = async function() {
         idealEdgeLength: edge => 50 / edge.data('dice'),
         //edgeElasticity: edge => edge.data('dice') * 80
         }).run();*/
-        others.restore();
+        layout2.run();
+        cy.once('layoutstop',() => others.restore());
+        //others.restore();
     });
     cy.on('tap',mouseUp.bind(null,cy));
     cy.on('mouseover',mouseOver.bind(null,cy));
