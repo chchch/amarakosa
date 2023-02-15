@@ -1,13 +1,13 @@
-import Cytoscape from 'cytoscape';
-//import Fcose from 'cytoscape-fcose';
-//import cola from 'cytoscape-cola';
 import Data from './data.json';
 import Texts from './texts.json';
 import Grams from './grams.json';
 import Hypher from 'hypher';
 import { hyphenation_sa } from './sa.mjs';
+import Cytoscape from 'cytoscape';
+//import cola from 'cytoscape-cola';
+import Fcose from 'cytoscape-fcose';
 //cytoscape.use(cola);
-//Cytoscape.use(Fcose);
+Cytoscape.use(Fcose);
 
 const state = {
     texts: new Map(Texts),
@@ -21,7 +21,7 @@ const main = async function() {
     //const res = await fetch('./data.json');
     //const Data = await res.json();
     const cy = Cytoscape( {
-        container: document.getElementById('cytoscape'),
+        container: document.getElementById('graph'),
         elements: Data,
         wheelSensitivity: 0.2,
         layout: {
@@ -77,7 +77,8 @@ const main = async function() {
             'line-color': '#ccc',
             //'line-opacity': el => { const scaled = (1-el.data('dice'))*2; return scaled > 1 ? 1 : scaled; },
             'line-opacity': el => 1-el.data('dice'),
-            'z-index': 1
+            'z-index': 1,
+            'events': 'no'
         }
         },
         {selector: '.mst',
@@ -117,18 +118,22 @@ const main = async function() {
     const others = cy.$('edge').difference(tree);
     others.remove();
     const layout1 = cy.layout({
-        name: 'cose',
+        name: 'fcose',
         nodeDimensionsIncludeLabels: true,
-        randomize: false,
+        randomize: true,
         //numIter: 4000,
         //idealEdgeLength: edge => 50 / edge.data('dice'),
         //edgeElasticity: edge => edge.data('dice') * 80
         });
     const layout2 = cy.layout({
-        name: 'cose',
+        name: 'fcose',
         nodeDimensionsIncludeLabels: true,
-        //numIter: 4000,
-        idealEdgeLength: edge => 50 / edge.data('dice'),
+        randomize: false,
+        numIter: 4000,
+        quality: 'proof',
+        //idealEdgeLength: edge => 50 / edge.data('dice'),
+        idealEdgeLength: edge => edge.data('dice') * 80,
+        edgeElasticity: edge => 50 / edge.data('dice'),
         //edgeElasticity: edge => edge.data('dice') * 80
         });
     layout1.run();
@@ -188,7 +193,7 @@ const mouseUp = (cy,e) => {
                 state.highlit.push(e.target);
             }
         }
-    }
+    }/*
     else if(e.target.isEdge && e.target.isEdge()) {
         cy.$('.highlight, .lowlight').removeClass(['highlight','lowlight']);
         e.target.addClass('highlight');
@@ -196,7 +201,7 @@ const mouseUp = (cy,e) => {
         nodes.addClass('highlight');
         textPopup(nodes[0].id(),nodes[1].id());
         state.highlit = [nodes[0],nodes[1]];
-    }
+    }*/
     else {
         cy.$('.highlight, .lowlight').removeClass(['highlight','lowlight']);
         state.highlit = [];

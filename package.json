@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "cytoscape": "^3.23.0",
-    "cytoscape-fcose": "^2.2.0",
+    "cytoscape-fcose": "2.1.0",
     "hypher": "^0.2.5"
   }
 }

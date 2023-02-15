@@ -59,8 +59,8 @@ const main = () => {
     
     const langs = new Map([
         ['hindi', ['MPEd','RBEd','RPEd','RDEd','DhaEd','BhoEd','DEd','SSEd']],
-        ['kannada',['RSEd','JM278','LREd']],
-        ['nepali', ['BKEd']],
+        ['kannada',['RSEd','JM278','LREd','IO-1758']],
+        ['nepali', ['BKEd','KGEd']],
         ['newari',['KA2a','KA2b','KA5','KA6','KA7','CAdd1698']],
         ['malayalam', ['BPEd']],
         ['marathi', ['EAP248-1-81']],

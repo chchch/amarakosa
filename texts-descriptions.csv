@@ -21,17 +21,17 @@ RPEd,Ratnaprabhā (Tripathi 1982)
 TEd,Trikāṇḍacintāmaṇi (ed. Bhaṭṭācārya 1892)
 UEd,Amara's Nāmaliṅgānuśāsanam with The commentary Amarakos'odghāṭana of Bhaṭṭa Kṣīrasvāmin (ed. Sharma 1941) 
 VSEd,Vyākhyāsudhā (ed. Śivadatta 1929)
-B549,BnF Sanscrit 549 annotations
-B612m,Bnf Sanscrit 612 marginal annotations
-B612r,Bnf Sanscrit 612 initial commentary in red
-B612,BnF Sanscrit 612 initial commentary in black
-B614,BnF Sanscrit 614
-B619,"Padārthakaumudī (Bibliothèque nationale de France MS Sanscrit 619)"
-B620,BnF Sanscrit 620
-B623,BnF Sanscrit 623
-B626,BnF Sanscrit 626
-B1379,BnF Sanscrit 1379 initial commentary
-B1379m,BnF Sanscrit 1379 marginal annotations
+BnF-549,BnF Sanscrit 549 annotations
+BnF-612m,Bnf Sanscrit 612 marginal annotations
+BnF-612r,Bnf Sanscrit 612 initial commentary in red
+BnF-612,BnF Sanscrit 612 initial commentary in black
+BnF-614,BnF Sanscrit 614
+BnF-619,"Padārthakaumudī (Bibliothèque nationale de France MS Sanscrit 619)"
+BnF-620,BnF Sanscrit 620
+BnF-623,BnF Sanscrit 623
+BnF-626,BnF Sanscrit 626
+BnF-1379,BnF Sanscrit 1379 initial commentary
+BnF-1379m,BnF Sanscrit 1379 marginal annotations
 D1183,DAV College MS 1183
 D1205,DAV College MS 1205
 D3347,DAV College MS 3347
@@ -107,7 +107,8 @@ LREd,Kannada commentary by Lewis Rice (1873)
 DEd,Devakośa arthāt Amarakośa [bhāṣā vivaraṇa mūla sahita] (Tivārī 1989 [1879])
 SSEd,Bhāṣāṭīkā (Suśilā Siṃha 2018)
 WL-a1240,Wellcome Library MS α1240
-IO-958,"Padārthakaumudī (British Library MS IO SAN 13 [Eggeling MS 958])"
+IO-958,"Padārthakaumudī (British Library MS IO SAN 13 [Eggeling 958])"
+IO-1758,"Karnāṭakapriya Vyākhyāna of Lakṣmaṇa Śāstrī (British Library MS IO SAN 1758 (Eggeling 972])"
 Ox-c.31,"Udghāṭana (Bodleian Library, MS Chandra Shum Shere c. 31)"
 Ox-c.32,"Ṭīkā of Kṛṣṇamitra (Bodleian Library, MS Chandra Shum Shere c. 32)"
 Ox-d.192(1),"Bodleian Library, Oxford MS Chandra Shum Shere d. 192(1)"
@@ -119,3 +120,4 @@ RAS-T144,"Trikāṇḍacintāmaṇi (Royal Asiatic Society MS Tod 144)"
 RAS-T92,"Vyākhyāsudhā (Royal Asiatic Society MS Tod 92)"
 RBEd,"Amara Kośa (Hiṃdī rupāntara). Ilāhābāda: Rāmanārāyaṇalāla Benīmādhava"
 CSSEd,"Caukhambā Saṃskṛta Sīrīja Āphisa, 1960"
+KGEd,"Nepali commentary of Kulacandra Gautama (1956?)"
