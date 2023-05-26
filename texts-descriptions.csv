@@ -13,12 +13,13 @@ KA323-19,NGMCP A 323-19 (Padacandrikā)
 PpEd,"Amarapadapārijāta (Amarakośa With the Unpublished South Indian Commentaries, ed. Mishra 1971)"
 PvG,Nāmaliṅgānuśāsanavyākhyā : Amarakōśapadavivṛtiḥ. (GOML MS 1697-1706)
 PvI,I_AM_VISIONARY_TUNES 114/4 (Padavivṛti)
-PvEd,"Padavivṛti, witness C (Amarakośa With the Unpublished South Indian Commentaries, ed. Mishra 1971)"
-PvEdC,"Padavivṛti (Amarakośa With the Unpublished South Indian Commentaries, ed. Mishra 1971)"
+PvEd,"Padavivṛti (Amarakośa With the Unpublished South Indian Commentaries, ed. Mishra 1971)"
+PvEdC,"Padavivṛti, witnes C (Amarakośa With the Unpublished South Indian Commentaries, ed. Mishra 1971)"
 RLEd,Rasāla (Śāstrī 1937)
 RPEd,Ratnaprabhā (Tripathi 1982)
 ṬEd,Ṭīkāsarvasva (ed. Śāstrī 1914)
-TEd,Trikāṇḍacintāmaṇi (ed. Bhaṭṭācārya 1892)
+TEd(1892),Trikāṇḍacintāmaṇi (ed. Bhaṭṭācārya 1892)
+TEd(1886),Trikāṇḍacintāmaṇi (ed. Tarkaratna 1886)
 UEd,Amara's Nāmaliṅgānuśāsanam with The commentary Amarakos'odghāṭana of Bhaṭṭa Kṣīrasvāmin (ed. Sharma 1941) 
 VSEd,Vyākhyāsudhā (ed. Śivadatta 1929)
 BnF-549,BnF Sanscrit 549 annotations
@@ -26,12 +27,13 @@ BnF-612m,Bnf Sanscrit 612 marginal annotations
 BnF-612r,Bnf Sanscrit 612 initial commentary in red
 BnF-612,BnF Sanscrit 612 initial commentary in black
 BnF-614,BnF Sanscrit 614
-BnF-619,"Padārthakaumudī (Bibliothèque nationale de France MS Sanscrit 619)"
+BnF-619,"Padārthakaumudī (BnF Sanscrit 619)"
 BnF-620,BnF Sanscrit 620
 BnF-623,BnF Sanscrit 623
 BnF-626,BnF Sanscrit 626
 BnF-1379,BnF Sanscrit 1379 initial commentary
 BnF-1379m,BnF Sanscrit 1379 marginal annotations
+BnF-622,"Amarapañcikā (BnF Sanscrit 622)"
 D1183,DAV College MS 1183
 D1205,DAV College MS 1205
 D3347,DAV College MS 3347
@@ -79,7 +81,8 @@ KA2b,Asha Archives (Newari.net)
 KA5,NGMCP B 267/9
 KA6,Loka Ratna Tuladhar collection (Newari.net)
 KA7,NGMCP E 4/3 (Newari.net)
-GBPEd,Gurubālaprabodhikā (19th c.)
+GBP(Te)Ed,Gurubālaprabodhikā in Telugu (19th c.)
+GBP(Ta)Ed,"Gurubālaprabodhikā in Tamil (EAP918/9/8, Roja Muthiah Research Library)"
 GKH1,Gurukul Kangri Haridwar 010/415
 GKH2,Gurukul Kangri Haridwar unnumbered
 RDEd,Arthaprakāśikā (Raviduttaśāstrī 1904)
@@ -109,7 +112,10 @@ SSEd,Bhāṣāṭīkā (Suśilā Siṃha 2018)
 WL-a1240,Wellcome Library MS α1240
 IO-958,"Padārthakaumudī (British Library MS IO SAN 13 [Eggeling 958])"
 IO-1758,"Karnāṭakapriya Vyākhyāna of Lakṣmaṇa Śāstrī (British Library MS IO SAN 1758 (Eggeling 972])"
+RE33635,"Karnāṭakapriya Vyākhyāna of Lakṣmaṇa Śāstrī (IFP RE33635)"
 Ox-c.31,"Udghāṭana (Bodleian Library, MS Chandra Shum Shere c. 31)"
+Ox-c.161,"Udghāṭana (Bodleian Library, MS Chandra Shum Shere c. 161)"
+Ox-d.119,"Udghāṭana (Bodleian Library, MS Chandra Shum Shere d. 119)"
 Ox-c.32,"Ṭīkā of Kṛṣṇamitra (Bodleian Library, MS Chandra Shum Shere c. 32)"
 Ox-d.192(1),"Bodleian Library, Oxford MS Chandra Shum Shere d. 192(1)"
 Ox-d.192(2),"Sudhā of Īśvaradatta (Bodleian Library, MS Chandra Shum Shere d. 192(2))"
@@ -121,3 +127,9 @@ RAS-T92,"Vyākhyāsudhā (Royal Asiatic Society MS Tod 92)"
 RBEd,"Amara Kośa (Hiṃdī rupāntara). Ilāhābāda: Rāmanārāyaṇalāla Benīmādhava"
 CSSEd,"Caukhambā Saṃskṛta Sīrīja Āphisa, 1960"
 KGEd,"Nepali commentary of Kulacandra Gautama (1956?)"
+AVEd,"Amarakoṣasya vātāyanāt (Nāmaliṁgānuśāsanam) (Ramā Dubaliśa 2003)"
+RWTEd,"Printed by R. W. Thorpe, Vepery Mission Press, 1842"
+ŚNEd,"Amarakocam (tamiḻk kuṟippuraiyuṭaṉ), N. Śrinivasan 2014"
+PMEd,"Pārameśvarī (Ṭi. Si. Paramēśvaran Mūssat, 1959)"
+AAEd,"Amarakosa in Burmese, commentary of Ashin Aggadhammābhivaṃsa (ed. Lokesh Chandra 1984)"
+WEd,"Amarakoṣaya (Wimalajoti 1934)"
