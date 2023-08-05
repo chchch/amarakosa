@@ -1,24 +1,29 @@
 AEd,Abhinavarājalakṣmībhāṣāṭikā (1935)
 JEd,Jatarupa's Commentary on the Amarakosa (ed. Pant 2000)
 KkEd,Subhūticandra's Kavikāmadhenu on Amarakośa 1.1.1.-1.4.8 (ed. Deokar 2014)
+Kk-ST,"Kavikāmadhenu, translated by Si Tu Pan Chen (1750-1757, ed. Deokar 2014)"
+Kk-N,"Kavikāmadhenu, translated by Yar klung Lo tsa ba rgyal mtshan (13th century, Narthang Tangyur)"
+Kk-D,"Kavikāmadhenu, translated by Zhwa lu Lo tsa ba Chos skyong bzang po (15th/16th century, Derge Tangyur)"
 KEd,"Amarakośa of Amarasimha, With the Commentary of Ācārya Kṛṣṇamitra (ed. Misra 1972)"
 MsEd,Amarakoṣaḥ saṃkṣiptamāheśvaryā ṭīkayā sametaḥ (ed. Pansiker 1896)
 MEd,"Amarakosa, with the commentary of Mahesvara (ed. Talekar 1882)"
 P1481,University of Pennsylvania Ms. Coll. 390 Item 1481
 NcEd,Nāmacandrikā (ed. Sharma 1929)
 PcEd,Padacandrikā (ed. Sastri 1966)
-KA324-10,NGMCP A 324-10 (Padacandrikā)
-KA322-4b,NGMCP A 322-4b (Padacandrikā)
-KA323-19,NGMCP A 323-19 (Padacandrikā)
+KA324-10,NGMPP A 324-10 (Padacandrikā)
+KA322-4b,NGMPP A 322-4b (Padacandrikā)
+KA323-19,NGMPP A 323-19 (Padacandrikā)
 PpEd,"Amarapadapārijāta (Amarakośa With the Unpublished South Indian Commentaries, ed. Mishra 1971)"
 PvG,Nāmaliṅgānuśāsanavyākhyā : Amarakōśapadavivṛtiḥ. (GOML MS 1697-1706)
 PvI,I_AM_VISIONARY_TUNES 114/4 (Padavivṛti)
 PvEd,"Padavivṛti (Amarakośa With the Unpublished South Indian Commentaries, ed. Mishra 1971)"
-PvEdC,"Padavivṛti, witnes C (Amarakośa With the Unpublished South Indian Commentaries, ed. Mishra 1971)"
+PvEdC,"Padavivṛti, witness C (Amarakośa With the Unpublished South Indian Commentaries, ed. Mishra 1971)"
+P2824,"Padavivṛti (University of Pennsylvania MS Coll. 390 Item 2824)"
 RLEd,Rasāla (Śāstrī 1937)
 RPEd,Ratnaprabhā (Tripathi 1982)
 ṬEd,Ṭīkāsarvasva (ed. Śāstrī 1914)
 TEd(1892),Trikāṇḍacintāmaṇi (ed. Bhaṭṭācārya 1892)
+TEd(1892)-note,"Bengali footnote ad Trikāṇḍacintāmaṇi (ed. Bhaṭṭācārya 1892)"
 TEd(1886),Trikāṇḍacintāmaṇi (ed. Tarkaratna 1886)
 UEd,Amara's Nāmaliṅgānuśāsanam with The commentary Amarakos'odghāṭana of Bhaṭṭa Kṣīrasvāmin (ed. Sharma 1941) 
 VSEd,Vyākhyāsudhā (ed. Śivadatta 1929)
@@ -26,7 +31,7 @@ BnF-549,BnF Sanscrit 549 annotations
 BnF-612m,Bnf Sanscrit 612 marginal annotations
 BnF-612r,Bnf Sanscrit 612 initial commentary in red
 BnF-612,BnF Sanscrit 612 initial commentary in black
-BnF-614,BnF Sanscrit 614
+BnF-614,"Amarapadavivṛti (BnF Sanscrit 614)"
 BnF-619,"Padārthakaumudī (BnF Sanscrit 619)"
 BnF-620,BnF Sanscrit 620
 BnF-623,BnF Sanscrit 623
@@ -39,7 +44,7 @@ D1205,DAV College MS 1205
 D3347,DAV College MS 3347
 D3351,DAV College MS 3351
 D3377,DAV College MS 3377
-C43,"Chinmaya International Foundation, EAP729/1/1/43"
+EAP729-1-1-43,"Chinmaya International Foundation, EAP729/1/1/43"
 Ś242,"Shantipur Bangiya Puran Parishad, MS 242 (EAP 781/1/1/181)"
 Ś427,"Shantipur Bangiya Puran Parishad, MS 427 (EAP 781/1/1/200)"
 Ś344,"Shantipur Bangiya Puran Parishad, MS 344 (EAP 781/1/1/591)"
@@ -53,36 +58,44 @@ R824,Shri Raghunatha Temple MS 824 gha
 RE22704,IFP RE22704
 P743,University of Pennsylvania Ms. Coll. 390 Item 743
 ABEdPc,Padacandrikā (ed. Borooah 1887)
-ABEdM,Mathureśa (ed. Borooah 1887)
-ABEdR,Ṭrikāṇḍaviveka (ed. Borooah 1887)
-ABEdT,"Trikāṇḍarahasya (IO 1324, ed. Borooah 1887)"
+ABEdM,"Mathureśa (abbreviated from IO SAN 1589, ed. Borooah 1887)"
+ABEdR,"Ṭrikāṇḍaviveka (abbreviated from IO SAN 832, ed. Borooah 1887)"
+ABEdT,"Trikāṇḍarahasya (abbreviated from IO SAN 1324, ed. Borooah 1887)"
 ORI3317,"Oriental Institute, Tirupati MS 3317"
 VEd,Savigrahāmarakośa (Haripaṇḍita 1864)
 PEd,Prabhā (Jośī 1946)
 LBS322,Lal Bahadur Shastri National Sanskrit University 02-04-322
 BhoEd,Bhāṣāṭīkā (Ramaswarupa Bholanath 1925)
-DhaEd,Dharā (Manna Lal Abhimanyu (1937)
+DhaEd,"Dharā (Manna Lal Abhimanyu, 1937)"
 A122-218,Allahabad Museum MS 122-218
 A122-223,Allahabad Museum MS 122-223
 A125-266,Allahabad Museum MS 125-266
 A126-307,Allahabad Museum MS 126-307
 A131-466,Allahabad Museum MS 131-486
-KA324-1,NGMCP A 324/1
-KA320-13,NGMCP A 320/13
-KA324-9,NGMCP A 324/9
-KA322-5,NGMCP A 322/5
-KB267-2,NGMCP B 267/2
-KA322-4a,NGMCP A322/4a
+KA324-1,"Amaradīpikā of Kulanidhiśarmā (NGMPP B 324-1)"
+KA320-13,NGMPP A 320-13
+KA324-9,NGMPP A 324-9
+KA322-5,NGMPP A 322-5
+KB267-2,NGMPP B 267-2
+KA322-4a,NGMPP A322-4a
+KA1031-12,"NGMPP A 1031-12 (B 268-7)"
+KA17-12(1),NGMPP A 17-12(1)
+KA17-12(2),NGMPP A 17-12(2)
+KA324-2,NGMPP A 324-2
+KB1-2,"NGMPP B 1-2 (B 14-19)"
+KB268-5,"NGMPP B 268-5"
+KB266-6,"Amaradīpikā of Kulanidhiśarmā (NGMPP B 266-6)"
 RE33660,IFP RE33660
 RE32661,IFP RE32661
 CAdd1698,Cambridge University MS Add. 1698
-KA2a,NGMCP E 6/5 (Newari.net)
-KA2b,Asha Archives (Newari.net)
-KA5,NGMCP B 267/9
-KA6,Loka Ratna Tuladhar collection (Newari.net)
-KA7,NGMCP E 4/3 (Newari.net)
-GBP(Te)Ed,Gurubālaprabodhikā in Telugu (19th c.)
-GBP(Ta)Ed,"Gurubālaprabodhikā in Tamil (EAP918/9/8, Roja Muthiah Research Library)"
+KE6-7,NGMPP E 6/5 (Newari.net)
+KNNA2b,Asha Archives (Newari.net)
+KB267-9,NGMPP B 267-9
+KNNA6,Loka Ratna Tuladhar collection (Newari.net)
+KNNA7,NGMPP E 4/3 (Newari.net)
+GBP(Te)Ed,"Gurubālaprabodhikā in Telugu (Tiruvēṅkaṭācāryulu, 19th c.)"
+GBP(Ta)Ed,"Gurubālaprabodhikā in Tamil (Tiruveṃkaṭācārya 1885, EAP918/9/8, Roja Muthiah Research Library)"
+Ṭ-GBP(Ta)Ed,"Ṭikasarvasva as printed in Gurubālaprabodhikā (Tiruveṃkaṭācārya 1885, EAP918/9/8, Roja Muthiah Research Library)"
 GKH1,Gurukul Kangri Haridwar 010/415
 GKH2,Gurukul Kangri Haridwar unnumbered
 RDEd,Arthaprakāśikā (Raviduttaśāstrī 1904)
@@ -90,7 +103,8 @@ MPEd,Maṇiprabhā (Haragovinda Śāstrī 1957)
 BKEd,Bālakṛṣṇāśramī (Bālakṛṣṇācārya 2000)
 KK933,Kavikulguru Kalidas Sanskrit University MS 933
 BPEd,Bālapriyā (Kaikulangara Rama Warrier 1950)
-KPEd,Amarapadakalpataru (Rāmānujācārya 1849)
+PKEd1849,Amarapadakalpataru (Rāmānujācārya 1849)
+PKEd1924,Amarapadakalpataru (ed. Veṅkaṭarāmaśāstrī 1924)
 Ad69312,Adyar Library MS 69312
 Ad70820,Adyar Library MS 70820
 Ad71010,Adyar Library MS 71010
@@ -103,15 +117,16 @@ EAP584-5-300,"Padavivṛti (Sanskrit Mahāvidyālaya, Endangered Archives Projec
 EAP584-1-88,"Folkland Centre collection, Endangered Archives Project"
 RAS-W155,"Udghāṭana (Royal Asiatic Society MS Whish 155)"
 EAP584-2-29,"Rajaraja Varma collection, Endangered Archives Project"
-EAP-886-1-21,"Padacandrikā (Raghunath Temple, Endangered Archives Project)"
+EAP886-1-21,"Padacandrikā (Raghunath Temple, Endangered Archives Project)"
 RSEd,Kannada commentary of Raṅganātha Śarmā (2013)
 JM278,Nāmaliṅgārdhacandrikā (Jangamwadi Math Acc. No. 278)
 LREd,Kannada commentary by Lewis Rice (1873)
 DEd,Devakośa arthāt Amarakośa [bhāṣā vivaraṇa mūla sahita] (Tivārī 1989 [1879])
 SSEd,Bhāṣāṭīkā (Suśilā Siṃha 2018)
 WL-a1240,Wellcome Library MS α1240
+IO-458,"Mugdhabodhinī of Bharatasena (British Library MS IO SAN 448)"
 IO-958,"Padārthakaumudī (British Library MS IO SAN 13 [Eggeling 958])"
-IO-1758,"Karnāṭakapriya Vyākhyāna of Lakṣmaṇa Śāstrī (British Library MS IO SAN 1758 (Eggeling 972])"
+IO-1758,"Karnāṭakapriya Vyākhyāna of Lakṣmaṇa Śāstrī (British Library MS IO SAN 1758 [Eggeling 972])"
 RE33635,"Karnāṭakapriya Vyākhyāna of Lakṣmaṇa Śāstrī (IFP RE33635)"
 Ox-c.31,"Udghāṭana (Bodleian Library, MS Chandra Shum Shere c. 31)"
 Ox-c.161,"Udghāṭana (Bodleian Library, MS Chandra Shum Shere c. 161)"
@@ -121,15 +136,21 @@ Ox-d.192(1),"Bodleian Library, Oxford MS Chandra Shum Shere d. 192(1)"
 Ox-d.192(2),"Sudhā of Īśvaradatta (Bodleian Library, MS Chandra Shum Shere d. 192(2))"
 Ox-d.196(1),"Ṭippaṇa of Lakṣmīdhara (Bodleian Library, MS Chandra Shum Shere d. 196(1))"
 Ox-d.196(2),"Bodleian Library, MS Chandra Shum Shere d. 196(2)"
-Ox-d.197(2),"Bodleian Library, MS Chandra Shum Shere d. 197(2)"
+Ox-d.197(2),"Bodleian Library, MS Chandra Shum Shere d. 197(2), marginal commentary"
+Ox-d.200,"Bodleian Library, MS Chandra Shum Shere d. 200, interlineal commentary (Śāradā)"
+Ox-d.1122,"Bodleian Library, MS Chandra Shum Shere d. 1122, interlineal commentary (Śāradā)"
 RAS-T144,"Trikāṇḍacintāmaṇi (Royal Asiatic Society MS Tod 144)"
 RAS-T92,"Vyākhyāsudhā (Royal Asiatic Society MS Tod 92)"
 RBEd,"Amara Kośa (Hiṃdī rupāntara). Ilāhābāda: Rāmanārāyaṇalāla Benīmādhava"
 CSSEd,"Caukhambā Saṃskṛta Sīrīja Āphisa, 1960"
 KGEd,"Nepali commentary of Kulacandra Gautama (1956?)"
+KGEd1969,"Nepali commentary of Kulacandra Gautama (1969)"
 AVEd,"Amarakoṣasya vātāyanāt (Nāmaliṁgānuśāsanam) (Ramā Dubaliśa 2003)"
 RWTEd,"Printed by R. W. Thorpe, Vepery Mission Press, 1842"
-ŚNEd,"Amarakocam (tamiḻk kuṟippuraiyuṭaṉ), N. Śrinivasan 2014"
+ŚNEd,"Amarakocam (tamiḻk kuṟippuraiyuṭaṉ), N. Śrinivasan 2014"
 PMEd,"Pārameśvarī (Ṭi. Si. Paramēśvaran Mūssat, 1959)"
 AAEd,"Amarakosa in Burmese, commentary of Ashin Aggadhammābhivaṃsa (ed. Lokesh Chandra 1984)"
 WEd,"Amarakoṣaya (Wimalajoti 1934)"
+Tü-3085,"Tübingen Ms.Or.Fol. 3085"
+SBB-13208,"Amarāmṛta of Veṅkaṭeśvara (Staatsbibliothek zu Berlin, Hs.or. 13208)"
+SBB-3421,"Amarakoṣārthabhāṣāṭīkā of Nāgadeva Bhaṭṭopādhyāya (Staatsbibliothek zu Berlin, Ms.or.fol. 3421)"

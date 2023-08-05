@@ -8,11 +8,14 @@
     "build": "vite build",
     "preview": "vite preview",
     "jaccard": "node jaccard.mjs",
+    "tfidf": "node tfidf.mjs --max-old-space-size=8192",
     "preptexts": "node preptexts.mjs",
     "textstocsv": "node textstocsv.mjs",
-    "prepgrams": "node prepgrams.mjs"
+    "prepgrams": "node prepgrams.mjs",
+    "makedb": "node makedb.mjs"
   },
   "devDependencies": {
+    "better-sqlite3": "^8.5.0",
     "csv-parse": "^5.3.3",
     "js": "^0.1.0",
     "path": "^0.12.7",
@@ -21,6 +24,7 @@
   "dependencies": {
     "cytoscape": "^3.23.0",
     "cytoscape-fcose": "2.1.0",
-    "hypher": "^0.2.5"
+    "hypher": "^0.2.5",
+    "sql.js-httpvfs": "^0.8.12"
   }
 }
