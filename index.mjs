@@ -41,6 +41,7 @@ style: {
     //'line-opacity': el => { const scaled = (1 - Math.log(el.data('similarity'),Math.E)/Math.E); return scaled > 1 ? 1 : scaled;},
     'line-opacity': el => {const scaled = el.data('similarity') + 0.1; return scaled > 1 ? 1 : scaled;},
     'z-index': 1,
+    'curve-style': 'straight',
     'events': 'no'
     }
 },
@@ -48,6 +49,8 @@ style: {
     style: {
         //'line-opacity': el => { const scaled = (1 - Math.log(el.data('similarity'),Math.E))/Math.E; return scaled > 1 ? 1 : scaled;},
         'line-opacity': el => {const scaled = el.data('similarity') + 0.2; return scaled > 1 ? 1 : scaled;},
+        //'curve-style': 'taxi'
+        'curve-style': 'straight'
     }
 },
 {selector: '.mst',
@@ -81,8 +84,24 @@ style: {
     'z-index': 15
     }
 }];
-const colours = ['#a6cee3','#1f78b4' ,'#b2df8a' ,'#33a02c' ,'#fb9a99' ,'#e31a1c', '#fdbf6f','#ff7f00' ,'#cab2d6','#6a3d9a','#fcfc12','#b15928'];
-const languages = [ 'bangla', 'burmese', 'hindi', 'kannada', 'nepali', 'newari', 'malayalam', 'marathi', 'sinhala', 'tamil', 'telugu','tibetan'];
+//const colours = ['#a6cee3','#1f78b4' ,'#b2df8a' ,'#33a02c' ,'#fb9a99' ,'#e31a1c', '#fdbf6f','#ff7f00' ,'#cab2d6','#6a3d9a','#fcfc12','#b15928'];
+//const languages = [ 'bangla', 'burmese', 'hindi', 'kannada', 'nepali', 'newari', 'malayalam', 'marathi', 'sinhala', 'tamil', 'telugu','tibetan'];
+const colours = [
+    /*indo-european*/
+    '#136d52','#1a9873','#21c494','#3bdead','#67e5bf','#92ecd2',
+    /*dravidian*/
+    '#7d2502','#e14204','#fc8050','#fec8b4',
+    /*tibeto-burman*/
+    '#045a8d','#2b8cbe','#74a9cf'
+    ];
+const languages = [
+    /*indo-european*/
+    'hindi','nepali','gujarati','sinhala','bangla','marathi', 
+    /*dravidian*/
+    'tamil','kannada','telugu','malayalam', 
+    /*tibeto-burman*/
+    'newar','tibetan','burmese'
+    ];
 for(let n=0;n<colours.length;n++) {
     CytoStyle.push({
         selector: `node.${languages[n]}`,
@@ -285,6 +304,7 @@ const mouseOut = (prevlit,e) => {
 };
 
 const getData = async (id1, id2) => {
+    //const worker = await createSqlWorker('/texts.db');
     const worker = await createSqlWorker('texts.db');
     return await worker.db.query(`SELECT id, text, description, grams2, grams3, grams4, grams5 FROM texts WHERE texts.id IN ("${id1}","${id2}")`);
 };
@@ -299,7 +319,7 @@ const textPopup = async (id1, id2) => {
     state.dbdata = new Map(
         data.map(el => [el.id, {
             text: el.text,
-            desc: el.desc,
+            desc: el.description,
             '2grams': JSON.parse(el.grams2),
             '3grams': JSON.parse(el.grams3),
             '4grams': JSON.parse(el.grams4),

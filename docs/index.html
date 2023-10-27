@@ -118,6 +118,14 @@ body {
     flex: 1 1 auto;
 }
 
+#legend > div.language-family {
+    font-size: 80%;
+    font-variant: small-caps;
+    margin-left: 1rem;
+    margin-right: 0.3rem;
+    align-self: flex-end;
+}
+
 #search {
     margin-bottom: 1rem;
     margin-left: auto;
@@ -162,25 +170,29 @@ p {
 }
 
     </style>
-  <script type="module" crossorigin src="./assets/index-07e80c06.js"></script>
+  <script type="module" crossorigin src="./assets/index-ddcbb59e.js"></script>
 </head>
 <body>
     <div id="graph"></div>
     <div id="overlay">
         <div id="legend">
             <div><span style="color: #777">&#9679;</span>  Sanskrit</div>
-            <div><span style="color: #a6cee3">&#9679;</span>  Bangla</div>
-            <div><span style="color: #1f78b4">&#9679;</span>  Burmese</div>
-            <div><span style="color: #b2df8a">&#9679;</span>  Hindi</div>
-            <div><span style="color: #33a02c">&#9679;</span>  Kannada</div>
-            <div><span style="color: #fb9a99">&#9679;</span>  Nepali</div>
-            <div><span style="color: #e31a1c">&#9679;</span>  Newar</div>
-            <div><span style="color: #fdbf6f">&#9679;</span>  Malayalam</div>
-            <div><span style="color: #ff7f00">&#9679;</span>  Marathi</div>
-            <div><span style="color: #cab2d6">&#9679;</span>  Sinhala</div>
-            <div><span style="color: #6a3d9a">&#9679;</span>  Tamil</div>
-            <div><span style="color: #fcfc12">&#9679;</span>  Telugu</div>
-            <div><span style="color: #b15928">&#9679;</span>  Tibetan</div>
+            <div class="language-family">Indo-Aryan</div>
+            <div><span style="color: #136d52">&#9679;</span>  Hindi</div>
+            <div><span style="color: #1a9873">&#9679;</span>  Nepali</div>
+            <div><span style="color: #21c494">&#9679;</span>  Gujarati</div>
+            <div><span style="color: #3bdead">&#9679;</span>  Sinhala</div>
+            <div><span style="color: #67e5bf">&#9679;</span>  Bangla</div>
+            <div><span style="color: #92ecd2">&#9679;</span>  Marathi</div>
+            <div class="language-family">Dravidian</div>
+            <div><span style="color: #7d2502">&#9679;</span>  Tamil</div>
+            <div><span style="color: #e14204">&#9679;</span>  Kannada</div>
+            <div><span style="color: #fc8050">&#9679;</span>  Telugu</div>
+            <div><span style="color: #fec8b4">&#9679;</span>  Malayalam</div>
+            <div class="language-family">Tibeto-Burman</div>
+            <div><span style="color: #045a8d">&#9679;</span>  Newar</div>
+            <div><span style="color: #2b8cbe">&#9679;</span>  Tibetan</div>
+            <div><span style="color: #74a9cf">&#9679;</span>  Burmese</div>
         </div>
         <div id="search"><input type="text" id="searchbox" autocomplete="off" placeholder="Search sigla..."></div>
     </div>
