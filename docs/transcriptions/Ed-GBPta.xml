@@ -21,7 +21,7 @@
                   <idno type="alternate"/>
                <idno type="URI">https://eap.bl.uk/archive-file/EAP918-9-8</idno></msIdentifier>
                <msContents class="#STM">
-                  <summary>This commentary on the <title xml:lang="sa">Amarakoṣa</title>, by <persName xml:lang="ta">Tiruveṃkaṭācārya</persName>, exists in both Tamil and Telugu. This copy, published in 1885, contains the Tamil version.</summary>
+                  <summary>This commentary on the <title xml:lang="sa">Amarakoṣa</title>, by <persName xml:lang="sa"><term xml:lang="ta">Tiru</term>veṃkaṭācārya</persName>, exists in both Tamil and Telugu. This copy, published in 1885, contains the Tamil version.</summary>
                   
                <msItem xml:id="Ed-GBPta" defective="false"><title xml:lang="ta"><title xml:lang="sa">Gurubālaprabodhikā</title></title><textLang mainLang="tam" otherLangs="san"/><rubric xml:lang="ta"><pb n="1" facs="109"/>
 <term xml:lang="sa">
