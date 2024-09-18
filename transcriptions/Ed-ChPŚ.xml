@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakośaḥ Śrīchoṭpatiśarmaviracitaṭippaṇībhir vibhūṣtaḥ</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2024</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Chambal Archives</orgName>
+                  </repository>
+                  <idno type="shelfmark">ark:/13960/s2ch0jp3br1</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archive.org/details/wmug_amara-kosha-of-amara-sinha-with-chhota-pati-sharma-1917-khemraj</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>This edition of the <title xml:lang="sa">Amarakoṣa</title>, published in <term xml:lang="sa">saṃvat 1973 saké 1737</term> (1916/1917 CE) by the <term xml:lang="sa">Śrīveṅkaṭeśvara</term> Steam Press. It contains a commentary by <persName>Choṭpati Śarma</persName>.</summary>
+                  
+               <msItem defective="false"><title xml:lang="sa">Amarakoṣa</title><textLang mainLang="san"/><rubric xml:lang="sa"><pb n="1" facs="9"/><lb n="1"/>|| śrīḥ ||</rubric><incipit xml:lang="sa"><lb n="2"/>athā 'marakośaḥ |
+<lb n="3"/>prathamakāṇḍam |
+<lb n="4"/>yasya jñānadayāsindhor agādhasyānaghā guṇāḥ ||
+<lb n="5"/>sevyatām akṣayo dhīrāḥ sa śriye cāmṛtāya ca || 1 ||</incipit><finalRubric xml:lang="sa"><pb n="319" facs="327"/>
+<lb n="3"/>ity amarasiṃhakṛtau nāmaliṃgānuśāsane ||
+<lb n="4"/>sāmānyakāṇḍas tṛtīyaḥ sāṃga eva samarthitaḥ ||
+<lb n="5"/>|| tṛtīyaṃ kāṇḍaṃ saṃpūrṇam || 3 ||
+<lb n="6"/>|| samāpto 'yaṃ granthaḥ ||</finalRubric></msItem><msItem xml:id="Ed-ChPŚ" defective="false"><title xml:lang="sa">Amarakoṣaṭippaṇī</title><author xml:lang="sa">Choṭpati Śarma</author><textLang mainLang="san"/><incipit xml:lang="sa"><pb n="1" facs="9"/>
+<lb n="8"/>vidhāyā 'ñjalim ādhāya namo mānāthapādayoḥ</incipit><finalRubric xml:lang="sa"><pb n="319" facs="327"/>
+<lb n="14"/>iti śrītripāṭhyupanāmakapaṃ.maheśadattaśarmātmajapaṃ.śrī<lb n="15"/>choṭ_patiśarmakṛtā 'marakośaṭippaṇī
+<lb n="16"/>samāptā ||</finalRubric><colophon xml:lang="sa"><lb n="17"/>pustaka milanekā ṭikānā –
+<lb n="18"/>khemarāja śrīkṛṣṇadāsa “śrīveṃkaṭeśvara” sṭīma presa – muṃvaī.</colophon></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="movable-type">
+                     <supportDesc material="paper">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="page" quantity="319"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout streams="2"/></layoutDesc>
+                  </objectDesc><handDesc/><typeDesc><typeNote scope="sole" script="devanagari" medium="ink black"/></typeDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" notBefore="1916" notAfter="1917"/>
+                     
+                  </origin><provenance><p>Digitized by the Sarayu Foundation Trust and eGangotri.</p></provenance><acquisition><p>Acquired by Shri Krishna Porwal ji, son of Shri Jamuna Prasad.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archive.org/iiif/wmug_amara-kosha-of-amara-sinha-with-chhota-pati-sharma-1917-khemraj/manifest.json"/></facsimile>
+<text corresp="#Ed-ChPŚ" xml:lang="sa"><pb n="1" facs="9"/>
+<lg>
+  <l><lb n="8"/>vidhāyā 'ñjalim ādhāya namo mānāthapādayoḥ</l>
+  <l><lb n="9"/>ṭippaṇī tanyate tanvī śrīchoṭ_patiśarmaṇā || 1 ||</l>
+</lg>
+<p corresp="AK-1.0.1-commentary">
+<lb n="10"/>1 nirvighnagranthasamāptipracāraphalakavastunirdeśātmakaitanmaṅga<lb n="11"/>la<space/>viśeṣyānupādānaṃ ca vaidikapathāvasthitānāṃ tadānīm a<lb n="12"/>titatavauddhamataśritānāñ copādeyatārtham etadgranthasyety avaseyam ||
+</p></text></TEI>

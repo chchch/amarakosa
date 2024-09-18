@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakoṣa</title> with marginal commentary</title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2024</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Kurukshetra University</orgName>
+                  </repository>
+                  <idno type="shelfmark">MN 3305</idno>
+                  <idno type="alternate"><idno>Acc. No. 52753</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>This paper manuscript of the <title xml:lang="sa">Amarakoṣa</title> has been damaged, but the marginal commentary is still partially legible.</summary>
+                  
+               <msItem xml:id="KU-MN3305" defective="false"><title xml:lang="sa">Amarakoṣa</title><textLang mainLang="san"/><rubric xml:lang="sa"><pb n="1v" facs="3"/><lb n="1"/>oṁ namaḥ śivāya || oṁ namaḥ sarsvatyai ||</rubric></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="baad">
+                     <supportDesc material="paper">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="375">ff. 1-138, unnumbered folio, ff. 139-374. Some images may be missing (f. 136v).</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent><foliation>Śāradā numerals, bottom left corner, verso.</foliation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="major" script="sarada" medium="ink black"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archive.org/iiif/MN003305AmaraKoshaWithColophonalNotesSharadaManuscriptsAtKurukshetraUniversity/manifest.json"/></facsimile>
+<text corresp="#KU-MN3305" xml:lang="sa"><pb n="1v" facs="3"/>
+<locus xml:lang="en">top margin</locus>
+<lb n="1"/><gap reason="lost"/>
+<lb n="2"/><gap reason="lost"/>babandha || yasyeti <space/> dhairyaśāli<gap reason="lost"/>
+<lb n="3"/><gap reason="lost"/>iti <gap reason="lost" quantity="2" unit="akṣara"/>tatvād yuṣmābhir hitecchubhiḥ <space/> sa bhagavān sevyatām<gap reason="lost"/>
+<lb n="4"/><gap reason="lost"/>ṇimādayo vā anaghā hṛdyāḥ <space/> agādhasyānavacchinnamahimnanyair anadhigata<gap reason="lost"/>
+<lb n="5"/><gap reason="lost"/>cchedagāmbhīryasya vā <space/> samudrapakṣe agādhasyātalasparśasyākṣayaḥ sadā paripūrṇṇaḥ <space/><gap reason="lost"/>
+<lb n="6"/><gap reason="lost"/>guṇā ratnādimattvān nairmalyādayaḥ śriyai lakṣmyai <unclear>a</unclear>mṛtāya pīyuṣāya ca sindhu<gap reason="lost"/>
+<lb n="7"/><gap reason="lost"/>sevitaḥ sevatir atra pakṣe nuśīlanārthaḥ</text></TEI>

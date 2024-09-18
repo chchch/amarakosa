@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakoṣa</title> with marginal commentary</title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2024</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Cambridge University Library</orgName>
+                  </repository>
+                  <idno type="shelfmark">MS Add. 1650</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>This Nepalese manuscript of the <title xml:lang="sa">Amarakoṣa</title> contains numerous marginal annotations and corrections in Sanskrit. See the catalogue record at the <ref target="https://cudl.lib.cam.ac.uk/view/MS-ADD-01650">Cambridge Digital Library</ref> for more details.</summary>
+                  
+               <msItem xml:id="Cam-Add1650" defective="false"><title xml:lang="sa">Amarakoṣa</title><textLang mainLang="san"/><rubric xml:lang="sa"><pb n="1v" facs="4"/><lb n="1"/>|| oṁ namaḥ sarvajñāya ||</rubric><incipit xml:lang="sa">yasya jñānadayā sindhor agādhasyānaghā guṇāḥ sevyatām akṣayo dhīrāḥ śriye cāmṛtāya ca ||</incipit></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf talipot">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="81"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="newa" medium="ink black"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://cudl.lib.cam.ac.uk/iiif/MS-ADD-01650"/></facsimile>
+<text corresp="#Cam-Add1650" xml:lang="sa"><p corresp="AK1.0.1-commentary">
+  <pb n="1v" facs="4"/>
+  <locus xml:lang="en">top margin</locus>
+<lb n="1"/>nihpāpā atyandho nirmmalāḥ
+  <lb n="2"/>avakrāḥ anaghāḥ | 1
+</p></text></TEI>
