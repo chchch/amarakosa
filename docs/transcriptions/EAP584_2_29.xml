@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakoṣapañcikā</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2024</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Chinmaya International Foundation</orgName>
+                  </repository>
+                  <idno type="shelfmark">EAP584/2/29</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>This manuscript contains the commentary of <persName xml:lang="sa">Nārāyaṇa</persName>. The beginning is in Sanskrit, but the rest of the commentary is in Malayalam.</summary>
+                  
+               <msItem xml:id="EAP-584/2/29" defective="false"><title xml:lang="sa">Amarakoṣapañcikā</title><author xml:lang="sa">Nārāyaṇa</author><textLang mainLang="san"/><filiation><p>British Library <ref target="https://archive.org/details/in.ernet.dli.2015.462071/page/n318/mode/1up">Mackenzie VII. 3</ref>, Adyar Library 21. Q. 7. (Krishnamacharya 1947: : 368), Trivandrum Palace Library 2053–2057 (Mahadeva Śāstrī 1938: 3176–3181), BnF Sancrit 620, IFP RE 33660, EAP 729/1/1/43.</p></filiation><rubric xml:lang="sa"><pb n="1r" facs="4"/><lb n="1"/>hariḥ | śrīgaṇapataye namaḥ avighnam astu ||
+</rubric><incipit xml:lang="sa">kleśādayo yan na parāmṛśanti yo vā bibharttiś ca śa<lb n="2"/>śabdam ekaḥ
+purātanānāḥ gurave gurūṇāṃ tasmai namo nāgavibhūṣaṇāya ||
+</incipit></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="142"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              <width quantity="255"/>
+                              <height quantity="40"/>
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent><foliation>Malayalam numerals, left margin, recto.</foliation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="malayalam" scriptRef="#dotReph" medium="black incised soot"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole" quantity="2"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl><title>Amarakośa Vyākaraṇa [16th century].</title> British Library. EAP584/2/29. <ref target="https://eap.bl.uk/archive-file/EAP584-2-29">eap.bl.uk/archive-file/EAP584-2-29</ref></bibl><bibl>Keith, Arthur Berriedale. 1935. <title>Catalogue of the Sanskrit and Prākrit Manuscripts in the Library of the Indian Office. Volume II. Brahmanical and Jaina Manuscripts.</title> Oxford: Clarendon Press. <ref target="https://archive.org/details/in.ernet.dli.2015.462071">ark:/13960/t6h18gm0b</ref></bibl><bibl>Krishnamacharya, V. 1947. <title>Descriptive Catalogue of Sanskrit Manuscripts in the Adyar Library. Vol. VI — Grammar, Prosody and Lexicography.</title> Madras: The Adyar Library.</bibl><bibl>Mahādeva Śāstrī, K. 1938. <title>A Descriptive Catalogue of the Sanskrit Manuscripts in the Maharajah's Palace Library, Trivandrum. Vol. VIII. Kāvya, Kośa and Miscellaneous.</title> Trivandrum: V. V. Press Branch.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://eap.bl.uk/archive-file/EAP584-2-29/manifest"/></facsimile>
+<text corresp="#EAP-584/2/29" xml:lang="sa"><lg xml:id="AK1.0.1">
+            <l>  <pb n="1r" facs="4"/><lb n="2"/>yasya jñāna<lb n="3"/>dayāsindhor agādhasyānaghā guṇāḥ</l>
+  <l>sevyatām akṣayo dhīrāḥ sa śri<subst>y<add place="below">ai</add><del rend="implied">e</del></subst> cāmṛtāya ca ||</l>
+</lg>
+<p corresp="AK1.0.1-commentary">
+gurutvā<lb n="4"/>d eva tanāmnoktatvāt_ yasyeti vāyudaivatasya yakārasyādau nirddeśaśīghra<lb n="5"/>samāptyartthaḥ yasya jñeti bhūmigaṇasya gurutrayātmakasya cādau nirdeśaṃ sthe<lb n="6"/>yādisaddhyarthaḥ jñānadayāsindhor iti viśeṣadvayaphaladvayavivakṣayā <lb n="7"/>ayam artthaḥ mokṣe dhī jñānam anyatra vijñānaḥ śilpaśāstrayor iti vakṣya<lb n="8"/>ti vararuciś ca pravṛttam apavarggāya jñānam ity ucyate budhaiḥ vijñā<lb n="9"/>m anyacśāstreṣu kalāsu ca pariśramaḥ iti jñānasindhutvād a<unclear>mṛ</unclear>tāya sevyatāṃ <lb n="10"/>dayāsindhutvāc ca śriyai bhuktaye sevyatām iti sindhusāmyam āha || agādhasya <lb n="11"/>avāṅmanasagocarasya anyatrātalasparśasya anaghā guṇāḥ smaraṇakīrttanādibhir a<lb n="12"/>ghanirodhinaḥ anyatrasnānādibhiḥ akṣayaḥ nāśarahitaḥ anyatra viṣṇo kṣayaḥ <lb n="13"/>vāsadeśaḥ tathā ca vakṣyati nilayāpacayau kṣayāv iti dhīrāḥ gaṃbhirāḥ guṇāḥ atha<pb n="1v" facs="5"/><lb n="1"/>vā dhiyaṃ prayacśatīti dhīrāḥ rā dāne āto nupasargge kaḥ buddhidā ity artthaḥ athavā dhī<lb n="2"/>rā vidvāṃsaḥ bhavat_bhis sevyatām iti śriyai amṛtāya ca jñānaiś caryyādibhiḥ vṛddhaṃ sindhu<lb n="3"/>m āśrityam evāśriyam amṛtatvañ cāpnuvat_ ēvam asau grandham amṛtārttha sevyatām iti<space/> bhu<lb n="4"/>ktaye muktaye cety artthaḥ ēvaṃbhūtāt_  guror llabdhatvād itīdam api śāstram atigāḍhaṃ nānā<lb n="5"/>duḥkharahitañ ca tasmād dhīrair gguṇajñāna<unclear>ku</unclear>śalair idaṃ śāstram ānāryya śri<lb n="6"/>yai ca sevyatām ity artthaḥ
+</p>
+</text></TEI>
