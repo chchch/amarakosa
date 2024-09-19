@@ -304,8 +304,8 @@ const mouseOut = (prevlit,e) => {
 };
 
 const getData = async (id1, id2) => {
-    //const worker = await createSqlWorker('/texts.db');
-    const worker = await createSqlWorker('texts.db');
+    const worker = await createSqlWorker('/texts.db');
+    //const worker = await createSqlWorker('texts.db');
     return await worker.db.query(`SELECT id, text, description, grams2, grams3, grams4, grams5 FROM texts WHERE texts.id IN ("${id1}","${id2}")`);
 };
 

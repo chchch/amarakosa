@@ -4,16 +4,17 @@ export default defineConfig({
     base: './',
     build: {
         outDir: './docs/',
+        emptyOutDir: false,
         sourcemap: false,
         rollupOptions: {
             cache: false,
-            maxParallelFileOps: 2,
+            maxParallelFileOps: 1,
             output: {
-                sourcemap: false
+                sourcemap: false,
+                manualChunks: (id) => {
+                    if(id.includes('grams')) return 'grams';
+                }
             },
-            manualChunks: (id) => {
-                if(id.includes('grams')) return 'grams';
-            }
         }
     }
 });
