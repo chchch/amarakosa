@@ -1,3 +1,4 @@
+import { resolve } from 'node:path';
 import { defineConfig } from "vite";
 
 export default defineConfig({
@@ -9,6 +10,10 @@ export default defineConfig({
         rollupOptions: {
             cache: false,
             maxParallelFileOps: 1,
+            input: {
+                main: resolve(__dirname, 'index.html'),
+                counts: resolve(__dirname, 'counts.html')
+            },
             output: {
                 sourcemap: false,
                 manualChunks: (id) => {
