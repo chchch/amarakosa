@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://tst-project.github.io/lib/css/tufte.css">
+  <style> 
+
+#graph {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+    background: linear-gradient(rgba(255,255,248,0.9) 40%, rgba(255,255,255,0));
+    flex-wrap: wrap;
+}
+#legend {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    margin-left: 1rem;
+    flex-wrap: wrap;
+}
+
+#legend > div {
+    margin-right: 1rem;
+    flex: 1 1 auto;
+}
+
+#legend > div.language-family {
+    font-size: 80%;
+    font-variant: small-caps;
+    margin-left: 1rem;
+    margin-right: 0.3rem;
+    align-self: flex-end;
+}
+
+#switch {
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+#blackout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+    display: none;
+}
+#textPopup {
+    max-width: 75ch;
+    max-height: 80%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+    background: white;
+    font-size: 1.3rem;
+}
+
+#textboxen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#textboxen div {
+    flex: 1;
+    margin: 10px;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.desc {
+    font-style: italic;
+}
+.text {
+    text-align: justify;
+    white-space: pre-line;
+}
+rt {
+    font-size: 80%;
+    margin-top: 0.5rem;
+}
+rt span {
+    width: fit-content;
+    display: inline-block;
+}
+p {
+    font-size: revert;
+    line-height: revert;
+}
+#spinner {
+    display: flex;
+    /*position: absolute;
+    width: 100vw;
+    height: 100vh;*/
+    flex-grow: 1;
+    margin: 0 auto;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#spinner > div {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    border: 10px solid rgba(0,0,0,.3);
+    border-radius: 50%;
+    border-top-color: rgb(0,0,0);
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+
+  </style>
+
+  <script src="//cdn.jsdelivr.net/npm/force-graph"></script>
+  <script type="module" crossorigin src="./assets/counts-8f37232b.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/sa-7655aae3.js">
+</head>
+
+<body>
+    <div id="graph"></div>
+    <div id="overlay">
+        <div id="legend">
+            <div><span style="color: #777">&#9679;</span>  Sanskrit</div>
+            <div class="language-family">Indo-Aryan</div>
+            <div><span style="color: #136d52">&#9679;</span>  Hindi</div>
+            <div><span style="color: #1a9873">&#9679;</span>  Nepali</div>
+            <div><span style="color: #21c494">&#9679;</span>  Gujarati</div>
+            <div><span style="color: #3bdead">&#9679;</span>  Sinhala</div>
+            <div><span style="color: #67e5bf">&#9679;</span>  Bangla</div>
+            <div><span style="color: #92ecd2">&#9679;</span>  Marathi</div>
+            <div class="language-family">Dravidian</div>
+            <div><span style="color: #7d2502">&#9679;</span>  Tamil</div>
+            <div><span style="color: #e14204">&#9679;</span>  Telugu</div>
+            <div><span style="color: #fc8050">&#9679;</span>  Kannada</div>
+            <div><span style="color: #fec8b4">&#9679;</span>  Malayalam</div>
+            <div class="language-family">Tibeto-Burman</div>
+            <div><span style="color: #045a8d">&#9679;</span>  Newar</div>
+            <div><span style="color: #2b8cbe">&#9679;</span>  Tibetan</div>
+            <div><span style="color: #74a9cf">&#9679;</span>  Burmese</div>
+        </div>
+        <div id="switch"><button id="separate">separate</button></div>
+    </div>
+
+    <div id="blackout">
+        <div id="spinner"><div></div></div>
+        <div id="textPopup">
+            <div id="textboxen">
+            <div id="textbox">
+                <div class="title"></div><div class="desc"></div><div class="text"></div>
+            </div>
+        </div>
+    </div>
+</body>
+  

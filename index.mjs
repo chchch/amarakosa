@@ -99,7 +99,7 @@ const languages = [
     /*indo-european*/
     'hindi','nepali','gujarati','sinhala','bangla','marathi', 
     /*dravidian*/
-    'tamil','kannada','telugu','malayalam', 
+    'tamil','telugu','kannada','malayalam', 
     /*tibeto-burman*/
     'newar','tibetan','burmese'
     ];

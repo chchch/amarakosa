@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Gurubālaprabodhikā</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2024</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Roja Muthiah Research Library</orgName>
+                  </repository>
+                  <idno type="shelfmark">EAP918-9-8</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://eap.bl.uk/archive-file/EAP918-9-8</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>This commentary on the <title xml:lang="sa">Amarakoṣa</title>, by <persName xml:lang="sa"><term xml:lang="ta">Tiru</term>veṃkaṭācārya</persName>, exists in both Tamil and Telugu. This copy, published in 1885, contains the Tamil version.</summary>
+                  
+               <msItem xml:id="Ed-GBPta" defective="false"><title xml:lang="ta"><title xml:lang="sa">Gurubālaprabodhikā</title></title><textLang mainLang="tam" otherLangs="san"/><rubric xml:lang="ta"><pb n="1" facs="109"/>
+<term xml:lang="sa">
+<lb n="1"/>śrīr astu.
+<lb n="2"/>śrīhayagrīvāya namaḥ.
+</term></rubric><incipit xml:lang="ta"><term xml:lang="sa">
+<lb n="3"/>gurubālaprabodhikākhyāne
+  <lb n="4"/>nāmaliṃgānuśāsanavyākhyāne prathamakāṃḍaḥ.
+  <lb n="5"/>gurubālaprabodhikākārapraṇītavīṭhikāślokāḥ.
+</term></incipit></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="movable-type">
+                     <supportDesc material="paper">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="page" quantity="281"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc/><typeDesc><typeNote scope="sole" script="tamil" scriptRef="#tamilPulliRegular #tamilPreReform #tamilOE" medium="ink black"/></typeDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin><provenance><p>This copy resides in the Roja Muthiah Research Library, and it was digitized by the British Library Endangered Archives Project. However, a note in the <locus facs="571">inside back cover</locus> gives shelfmark under a stamp from the Adyar Library.</p></provenance></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Madras Lexicon/IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://eap.bl.uk/archive-file/EAP918-9-8/manifest"/></facsimile>
+<text corresp="#Ed-GBPta" xml:lang="ta"><p><pb n="1" facs="109"/>
+  <lb n="18"/><term xml:lang="sa">avataraṇi</term>kai ||</p>
+<p corresp="AK1.0.1-commentary">
+<term xml:lang="sa">samastaśāstrābhijña</term>ṉ ākiya <term xml:lang="sa">amarasiṃha</term>ṉ eṉkiṟa <term xml:lang="sa">mahāpaṃḍita</term>ṉ <term xml:lang="sa">lokopakāra</term>ttiṉ po<lb n="19"/>ruṭṭu <term xml:lang="sa">nāmaliṃgānuśāsana</term>m eṉkiṟa <term xml:lang="sa">grantha</term>ttaicceyya niccayittavaṉ āka āram pikka iccitta <term xml:lang="sa">graṃtha</term>māṉa<lb n="20"/>tu <term xml:lang="sa">nirvighna</term>m āka <term xml:lang="sa">parisamāpti</term>y aṭaiyum poruṭṭu <term xml:lang="sa">iṣṭadevatā namaskārarūpa</term>m ākiya maṅkaḷattai muṉṉutā<lb n="21"/>kac ceytuṟuṉ.
+</p>
+<p><lb n="22"/>mū ||</p>
+<lg xml:lang="sa" xml:id="AK1.0.1">
+  <l>yasya jñānadayāsiṃdhor agādhasyānaghā guṇāḥ |</l>
+  <l><lb n="23"/>sevyatām akṣayo dhīrās saś śriyai cāmṛtāya ca || 1 ||</l>
+</lg>
+<p xml:lang="sa"><lb n="24"/>vyā ||</p>
+<p xml:lang="sa" corresp="AK1.0.1-commentary">
+yasyeti || he dhīrāḥ he paṃḍitāḥ - jñānadayāsiṃdhoḥ jñānakṛpāsamudrasya - agādhasya <lb n="25"/>gaṃbhīrasya - yasya - devasya - guṇāḥ anaghāḥ | pāparahitāḥ | akṣayaḥ nāśarahitaḥ | sa devaḥ śriyai - saṃ<lb n="26"/>pade - amṛtāya - mokṣāya ca - sevyatāṃ - samudrapakṣe guṇāḥ - ratnākaratvādayaḥ - akṣayạḥ - asya vi<lb n="27"/>ṣṇoḥ kṣayaḥ nivāsa ity arthaḥ | śriyai - lakṣmyai - amṛtāya - sudhāyai - sevyatām ity anvayaḥ ||
+</p>
+<p><lb n="28"/><term xml:lang="sa">artha</term>m ||</p>
+<p corresp="AK1.0.1-commentary">
+<term xml:lang="sa">he dhirāḥ</term> - o <term xml:lang="sa">vidvāṃsa</term>rkaḷe - <term xml:lang="sa">jñānadayāsiṃdhoḥ - jñā</term>ṉattukkum tayaikkum_ <term xml:lang="sa">āśrayabhūta</term>ṉā<lb n="29"/>ṉ - <term xml:lang="sa">agādhasya - gaṃbhīra</term>ṉāṉ - <term xml:lang="sa">yasya</term> - enta <term xml:lang="sa">deva</term>ṉuṭaiya - <term xml:lang="sa">guṇāḥ - guṇa</term>ṅkaḷ - <term xml:lang="sa">anaghāḥ - rāgādidoṣarahi<lb n="30"/>ta</term>ṅkaḷo <term xml:lang="sa">akṣayaḥ - nāśarahita</term>ṉākiya - <term xml:lang="sa">saḥ</term> - anta <term xml:lang="sa">deva</term>ṉ - <term xml:lang="sa">śriyai - sampatti</term>ṉ poruṭṭum - <term xml:lang="sa">a<lb n="31"/>mṛtāya ca - mokṣa</term>ttiṉ poruṭṭum - <term xml:lang="sa">sevyatāṃ - sevi</term>kkappaṭaṭṭum - itu <term xml:lang="sa">paramātma paramā</term><lb n="32"/>kiya <term xml:lang="sa">artha</term>m || <term xml:lang="sa">samudrapara</term>ttil - <term xml:lang="sa">yasya</term> - enta - <term xml:lang="sa">agādhasya - ā</term>ḻam ākiya - <term xml:lang="sa">siṃdhoḥ - samudra</term>ttiṉ u<lb n="33"/>ṭaiya <term xml:lang="sa">guṇāḥ - ratnākaratvādiguṇa</term>ṅkaḷ - <term xml:lang="sa">anaghāḥ - doṣarahita</term>ṅkaḷo - <term xml:lang="sa">akṣayaḥ - asya - viṣṇa</term>vukku <lb n="34"/><term xml:lang="sa">kṣayaḥ - nivāsa</term>m ākiya - <term xml:lang="sa">saḥ</term> - anta - <term xml:lang="sa">samudra</term>māṉatu - <term xml:lang="sa">śriyai ca - lakṣmīdevi</term>yiṉ poruṭṭum - <term xml:lang="sa">amṛtāya ca - a<lb n="35"/>mṛta</term>ttiṉ poruṭṭum <term xml:lang="sa">sevyatāṃ - sevi</term>kkappaṭaṭṭum - eṉṟul pūrvakālattil tevataikaḷ <term xml:lang="sa">samu<lb n="36"/>dra</term>ttai sēvittu <term xml:lang="sa">lakṣmīdeviyai - amṛta</term>ttaiyum - aṭaintatupōl <term xml:lang="sa">bhagavā</term>ṉai sevikkiṟavarkaḷ <term xml:lang="sa">dharmārtha<lb n="37"/>kāma</term><sic>ṅḷe</sic>ṉkiṟa <term xml:lang="sa">trivargasaṃpa</term>ttaiyum <term xml:lang="sa">mokṣa</term>ttaiyum aṭaiyuvārkaḷeṉṟu <term xml:lang="sa">tātparya</term>m ||
+</p></text></TEI>
