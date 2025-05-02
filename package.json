@@ -26,7 +26,11 @@
   "dependencies": {
     "cytoscape": "^3.23.0",
     "cytoscape-fcose": "2.1.0",
+    "d3-force": "^3.0.0",
+    "force-graph": "^1.49.5",
     "hypher": "^0.2.5",
-    "sql.js-httpvfs": "^0.8.12"
+    "native-file-system-adapter": "^3.0.1",
+    "sql.js-httpvfs": "^0.8.12",
+    "sqlstring-sqlite": "^0.1.1"
   }
 }

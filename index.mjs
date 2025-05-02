@@ -1,10 +1,13 @@
-import Data from './data.json';
+//import Data from './data.json';
+//import Graph from './graph.json';
 import Database from './texts.db';
 //import Texts from './texts.json';
 //import Grams from './grams.json';
 import Hypher from 'hypher';
 import createSqlWorker from './sqlWorker.mjs';
 import { hyphenation_sa } from './sa.mjs';
+import { showSaveFilePicker } from 'native-file-system-adapter';
+import SqlString from 'sqlstring-sqlite';
 import Cytoscape from 'cytoscape';
 //import cola from 'cytoscape-cola';
 import Fcose from 'cytoscape-fcose';
@@ -14,6 +17,7 @@ Cytoscape.use(Fcose);
 const state = {
     //texts: new Map(Texts),
     dbdata: null,
+    dbworker: null,
     highlit: [],
     searchTimeout: null
 };
@@ -112,18 +116,53 @@ for(let n=0;n<colours.length;n++) {
     });
 }
 
-const main = async function() {
-    //const res = await fetch('./data.json');
-    //const Data = await res.json();
+const main = async () => {
+    blackout.style.display = 'flex';
+    const popup = document.getElementById('textPopup');
+    popup.style.display = 'none'; 
     const cy = Cytoscape( {
         container: document.getElementById('graph'),
-        elements: Data,
         wheelSensitivity: 0.2,
         layout: {
             name: 'null',
         },
-        style: CytoStyle
     });
+    const params = new URLSearchParams(window.location.search);
+    if(params.has('refresh'))
+        await runLayout(cy);
+    else {
+        const res = await fetch('./graph.json');
+        const Graph = await res.json();
+        cy.json(Graph);
+        cy.style(CytoStyle);
+    }
+    cy.on('tap',mouseUp.bind(null,cy));
+    cy.on('mouseover',mouseOver.bind(null,cy));
+    
+    blackout.style.display = 'none';
+    blackout.addEventListener('click',unBlackout);
+    document.getElementById('gramselector').addEventListener('click',switchGrams);
+    //document.getElementById('searchbox').addEventListener('change',doSearch.bind(null,cy));
+    document.getElementById('searchbox').addEventListener('keyup',doSearch.bind(null,cy));
+    document.getElementById('searchtype').addEventListener('change',updateSearchBox);
+};
+
+const doSearch = (cy, e) => {
+    if(e.target.value === '**EXPORT**') {
+        doExport(cy);
+        return;
+    }
+    if(document.getElementById('searchtype').value === 'sigla')
+        searchSigla(cy, e);
+    else
+        findPassage(cy, e);
+};
+
+const runLayout = async cy => {
+    const res = await fetch('./data.json');
+    const Data = await res.json();
+    cy.add(Data);
+    cy.style(CytoStyle);
     const tree = cy.elements().kruskal(edge => 1 - edge.data('similarity'));
     tree.addClass('mst');
     const others = cy.$('edge').difference(tree);
@@ -161,13 +200,27 @@ const main = async function() {
         cy.once('layoutstop',() => others.restore());
         //others.restore();
     });
-    cy.on('tap',mouseUp.bind(null,cy));
-    cy.on('mouseover',mouseOver.bind(null,cy));
-    
-    blackout.addEventListener('click',unBlackout);
-    document.getElementById('gramselector').addEventListener('click',switchGrams);
-    document.getElementById('searchbox').addEventListener('change',searchSigla.bind(null,cy));
-    document.getElementById('searchbox').addEventListener('keyup',searchSigla.bind(null,cy));
+};
+
+const doExport = async cy => {
+    const out = cy.json();
+    const file = new Blob([JSON.stringify(cy.json())], {type: 'application/json;charset=utf-8'});
+    const fileHandle = await showSaveFilePicker({
+        _preferPolyfill: false,
+        suggestedName: 'graph.json',
+        types: [ {description: 'JSON', accept: {'application/json': ['.json']}}],
+    });
+    const writer = await fileHandle.createWritable();
+    writer.write(file);
+    writer.close();
+};
+
+const updateSearchBox = e => {
+    const box = document.getElementById('searchbox');
+    if(e.target.value === 'sigla')
+        box.placeholder = 'Search sigla...';
+    else
+        box.placeholder = 'Search texts...';
 };
 
 const mouseUp = async (cy,e) => {
@@ -306,8 +359,33 @@ const mouseOut = (prevlit,e) => {
 
 const getData = async (id1, id2) => {
     //const worker = await createSqlWorker('/texts.db');
-    const worker = await createSqlWorker(Database);
-    return await worker.db.query(`SELECT id, text, description, grams2, grams3, grams4, grams5 FROM texts WHERE texts.id IN ("${id1}","${id2}")`);
+    if(!state.dbworker) state.dbworker = await createSqlWorker(Database);
+    return await state.dbworker.db.query(`SELECT id, text, description, grams2, grams3, grams4, grams5 FROM texts WHERE texts.id IN ("${id1}","${id2}")`);
+};
+
+const findPassage = async (cy, e) => {
+    if(e.key !== 'Enter') return;
+    
+    const blackout = document.getElementById('blackout');
+    blackout.style.display = 'flex';
+    const popup = document.getElementById('textPopup');
+    popup.style.display = 'none'; 
+
+    const str = e.target.value;
+
+    if(!state.dbworker) state.dbworker = await createSqlWorker(Database);
+    const likes = str.split('|').map(l => `"%${SqlString.escape(l)}%"`);
+    const sqlstr = likes.length == 1 ? 
+        `SELECT id FROM texts WHERE texts.text LIKE "%${str}%"` :
+        'SELECT id FROM texts WHERE texts.text LIKE' + likes.join(' OR texts.text LIKE ');
+
+    const ret = await state.dbworker.db.query(sqlstr);
+    clearFound(cy);
+    for(const el of ret) {
+        const found = cy.$(`[id = '${el.id}']`);
+        found.addClass('found');
+    }
+    blackout.style.display = 'none';
 };
 
 const textPopup = async (id1, id2) => {

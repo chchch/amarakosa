@@ -170,8 +170,8 @@ p {
 }
 
     </style>
-  <script type="module" crossorigin src="./assets/main-0ff74ec0.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/sa-7655aae3.js">
+  <script type="module" crossorigin src="./assets/main-23e15d4a.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/sa-5a412fcf.js">
 </head>
 <body>
     <div id="graph"></div>
@@ -195,7 +195,12 @@ p {
             <div><span style="color: #2b8cbe">&#9679;</span>  Tibetan</div>
             <div><span style="color: #74a9cf">&#9679;</span>  Burmese</div>
         </div>
-        <div id="search"><input type="text" id="searchbox" autocomplete="off" placeholder="Search sigla..."></div>
+        <div id="search">
+            <select name="searchtype" id="searchtype">
+                <option value="sigla" selected>sigla</option>
+                <option value="texts">texts</option>
+            </select>
+            <input type="text" id="searchbox" autocomplete="off" placeholder="Search sigla..."></div>
     </div>
     <div id="blackout">
         <div id="spinner"><div></div></div>
