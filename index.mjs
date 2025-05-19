@@ -148,6 +148,8 @@ const main = async () => {
 };
 
 const doSearch = (cy, e) => {
+    const ignore = new Set(['Alt','AltGraph','CapsLock','Control','Fn','FnLock','Hyper','Meta','NumLock','ScrollLock','Shift','Super','Symbol','SymbolLock']);
+    if(ignore.has(e.key)) return;
     if(e.target.value === '**EXPORT**') {
         doExport(cy);
         return;
@@ -236,8 +238,9 @@ const mouseUp = async (cy,e) => {
             const highlitnode = state.highlit[0];
             e.target.addClass('highlight');
             cy.$('edge.lowlight').removeClass(['highlight','lowlight']);
-            e.target.edgesWith(highlitnode).addClass('highlight');
-            await textPopup(state.highlit[0].id(),e.target.id());
+            const theedge = e.target.edgesWith(highlitnode);
+            theedge.addClass('highlight');
+            await textPopup(state.highlit[0].id(),e.target.id(),theedge.data('similarity'));
             state.highlit.push(e.target);
         }
         else if(state.highlit.length === 2 || state.highlit.length === 0) {
@@ -374,11 +377,10 @@ const findPassage = async (cy, e) => {
     const str = e.target.value;
 
     if(!state.dbworker) state.dbworker = await createSqlWorker(Database);
-    const likes = str.split('|').map(l => `"%${SqlString.escape(l)}%"`);
+    const likes = str.split('|').map(l => `${SqlString.escape('%' + l + '%')}`);
     const sqlstr = likes.length == 1 ? 
         `SELECT id FROM texts WHERE texts.text LIKE "%${str}%"` :
-        'SELECT id FROM texts WHERE texts.text LIKE' + likes.join(' OR texts.text LIKE ');
-
+        'SELECT id FROM texts WHERE texts.text LIKE ' + likes.join(' OR texts.text LIKE ');
     const ret = await state.dbworker.db.query(sqlstr);
     clearFound(cy);
     for(const el of ret) {
@@ -388,7 +390,7 @@ const findPassage = async (cy, e) => {
     blackout.style.display = 'none';
 };
 
-const textPopup = async (id1, id2) => {
+const textPopup = async (id1, id2, similarity) => {
     const blackout = document.getElementById('blackout');
     blackout.style.display = 'flex';
     const popup = document.getElementById('textPopup');
@@ -415,6 +417,7 @@ const textPopup = async (id1, id2) => {
         textbox.myText = textbox.innerHTML;
         return {id: id, textbox: textbox};
     });
+    document.getElementById('similarity').textContent = similarity;
     document.querySelector('.selected')?.classList.remove('selected');
     document.querySelector('#gramselector span').classList.add('selected');
 

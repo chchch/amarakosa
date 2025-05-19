@@ -72,17 +72,26 @@ body {
     width: 100%;
     flex-direction: row;
     justify-content: flex-end;
-    cursor: pointer;
     position: sticky;
     top: 0;
     z-index: 15;
     background: linear-gradient(rgba(255,255,255,1) 90%, rgba(255,255,255,0));
 }
+#similarity {
+    margin-left: 1rem;
+    margin-right: auto;
+    color: rgb(150,150,150);
+}
+
 #gramselector span {
     margin: 5px;
     border-radius: 4px;
     padding: 1px 3px 1px 3px;
 }
+#gramselector span:not(.selected) {
+    cursor: pointer;
+}
+
 #gramselector span:not(.selected):hover {
     background: #ccc;
 }
@@ -204,6 +213,7 @@ p {
         <div id="spinner"><div></div></div>
         <div id="textPopup">
             <div id="gramselector">
+                <div id="similarity"></div>
                 <span data-n="2grams" class="selected">2-akṣaras</span>
                 <span data-n="3grams">3-akṣaras</span>
                 <span data-n="4grams">4-akṣaras</span>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakoṣa</title> with anonymous preface</title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2024</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Bhagavad Ramanuja National Research Institute</orgName>
+                  </repository>
+                  <idno type="shelfmark">B-18</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archive.org/details/vsmr_amara-kosha-of-amara-simha-part-1-anon-brnri-melkote/</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>This print of the <title xml:lang="sa">Amarakoṣa</title> comes without any information, although it contains a preface with commentary on the initial verses. The table of contents mentions all three <term xml:lang="sa">kāṇḍa</term>s, although only the text of the first <term xml:lang="sa">kāṇḍa</term> is extant here.</summary>
+                  
+               <msItem defective="false"><title xml:lang="sa">Amarakoṣa	</title><textLang mainLang="san"/><rubric xml:lang="sa"><pb n="1" facs="15"/>
+<lb n="1"/>śrīr astu</rubric><incipit xml:lang="sa"><lb n="2"/>nāmaliṅgānuśāsanaprārambhaḥ
+<lb n="3"/>yasya jñānadayāsindho<space/>r agādhasyānaghā guṇāḥ || sevyatām akṣayo dhīrāḥ sa śriyai cā<lb n="4"/>mṛtāya ca || 1 ||</incipit><finalRubric xml:lang="sa"><pb n="79" facs="91"/><lb n="1"/>uktaṃ svar_ vyoma dik_ kāla dhī vāk_ śabdādi nāṭyakam ||
+<lb n="2"/>pātāḷa bhogi naraka vāri caiṣāṃ ca saṃgatam || ity amara<lb n="3"/>siṃhakṛtau nāmaliṅgānuśāsane || svargādiḥ
+<lb n="4"/>prathama.kāṇḍaḥ sāṅ_ga eva samarthitaḥ ||
+<lb n="5"/>prathamakāṇḍaḥ samāptaḥ</finalRubric></msItem><msItem xml:id="BRNRI-B18" defective="false"><title xml:lang="sa"><term xml:lang="en">Preface to the</term> Amarakoṣa</title><textLang mainLang="san"/><rubric xml:lang="sa"><pb n="1" facs="2"/>
+<lb n="1"/>śrīr astu
+</rubric><incipit xml:lang="sa"><lb n="2"/>yasya nāmāni sarvāṇi liṅ_gaṃ yatra na bhidyate
+<lb n="3"/>yasyā<space/>nuśāsanaṃ siddhaṃ taṃ hariṃ śreyase stumaḥ</incipit></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="movable-type">
+                     <supportDesc material="paper">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="page" quantity="91">ff. 1-12, 1-79.</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc/><typeDesc><typeNote scope="sole" script="devanagari" medium="ink black"/></typeDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     <origPlace>Melukote</origPlace>
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archive.org/iiif/vsmr_amara-kosha-of-amara-simha-part-1-anon-brnri-melkote/manifest.json"/></facsimile>
+<text corresp="#BRNRI-B18" xml:lang="sa"><p corresp="AK1.0.1-commentary">
+<pb n="7" facs="8"/>
+  <lb n="1"/>atrādau kaviḥ prārīpsitaprabandhapratyūhapraśamanāya bhagavantaṃ praṇaman_ cikīrṣitaṃ pra<lb n="2"/>tijñāya, bodhasaukaryāya nijagranthanirdiṣṭān_ saṃjñāviśeṣān_ pañ_cabhiḥ ślokaiḥ vivṛṇoti.
+  <lb n="3"/>[ yasyeti ] he dhīrāḥ jñānadayāsindhoḥ agādhasya yasya guṇāḥ anaghāḥ, akṣayaḥ saḥ śri<lb n="4"/>yai ca amṛtāya ca sevyatām .
+</p></text></TEI>

@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "tfidf": "node tfidf.mjs --max-old-space-size=8192",
-    "makedb": "node makedb.mjs"
+    "makedb": "node makedb.mjs",
+    "countaksaras": "node countaksaras.mjs"
   },
   "defunctscripts": {
     "jaccard": "node jaccard.mjs",
