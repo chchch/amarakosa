@@ -4,7 +4,7 @@ import Database from './texts.db';
 //import Texts from './texts.json';
 //import Grams from './grams.json';
 import Hypher from 'hypher';
-import createSqlWorker from './sqlWorker.mjs';
+import openDb from './sqlite.mjs';
 import { hyphenation_sa } from './sa.mjs';
 import { showSaveFilePicker } from 'native-file-system-adapter';
 import SqlString from 'sqlstring-sqlite';
@@ -362,8 +362,9 @@ const mouseOut = (prevlit,e) => {
 
 const getData = async (id1, id2) => {
     //const worker = await createSqlWorker('/texts.db');
-    if(!state.dbworker) state.dbworker = await createSqlWorker(Database);
-    return await state.dbworker.db.query(`SELECT id, text, description, grams2, grams3, grams4, grams5 FROM texts WHERE texts.id IN ("${id1}","${id2}")`);
+    //if(!state.dbworker) state.dbworker = await createSqlWorker(Database);
+    if(!state.dbworker) state.dbworker = await openDb(Database);
+    return await state.dbworker.exec(`SELECT id, text, description, grams2, grams3, grams4, grams5 FROM texts WHERE texts.id IN ("${id1}","${id2}")`);
 };
 
 const findPassage = async (cy, e) => {
@@ -396,15 +397,14 @@ const textPopup = async (id1, id2, similarity) => {
     const popup = document.getElementById('textPopup');
     popup.style.display = 'none'; 
     const data = await getData(id1,id2);
-
     state.dbdata = new Map(
-        data.map(el => [el.id, {
-            text: el.text,
-            desc: el.description,
-            '2grams': JSON.parse(el.grams2),
-            '3grams': JSON.parse(el.grams3),
-            '4grams': JSON.parse(el.grams4),
-            '5grams': JSON.parse(el.grams5)
+        data[0].values.map(el => [el[0], {
+            text: el[1],
+            desc: el[2],
+            '2grams': JSON.parse(el[3]),
+            '3grams': JSON.parse(el[4]),
+            '4grams': JSON.parse(el[5]),
+            '5grams': JSON.parse(el[6])
         }])
     );
     const boxen = [...state.dbdata].map(([id,el],n) => {

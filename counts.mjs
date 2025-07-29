@@ -2,7 +2,7 @@ import ForceGraph from 'force-graph';
 import { forceCollide, forceX, forceY, forceLink} from 'd3-force';
 import Database from './texts.db';
 import Counts from './counts.json';
-import createSqlWorker from './sqlWorker.mjs';
+import openDb from './sqlite.mjs';
 import Hypher from 'hypher';
 import { hyphenation_sa } from './sa.mjs';
 
@@ -153,8 +153,8 @@ const getSeparateY = lang => {
 
 const getData = async id => {
     //const worker = await createSqlWorker('/texts.db');
-    const worker = await createSqlWorker(Database);
-    return (await worker.db.query(`SELECT id, text, description FROM texts WHERE texts.id = "${id}"`))[0];
+    const worker = await openDb(Database);
+    return (await worker.exec(`SELECT id, text, description FROM texts WHERE texts.id = "${id}"`))[0].values;
 };
 
 const state = {};
@@ -164,14 +164,14 @@ const textPopup = async id => {
     blackout.style.display = 'flex';
     const popup = document.getElementById('textPopup');
     popup.style.display = 'none'; 
-    const data = await getData(id);
+    const data = (await getData(id))[0];
 
     const container = document.getElementById('textbox');
     container.querySelector('.title').textContent = id;
-    container.querySelector('.desc').textContent = data.description;
+    container.querySelector('.desc').textContent = data[2];
     const textbox = container.querySelector('.text');
     //textbox.textContent = data.text.join('\n\n');
-    textbox.innerHTML = data.text/*.join('\n\n')*/;
+    textbox.innerHTML = data[1]/*.join('\n\n')*/;
     textbox.myText = textbox.innerHTML;
 
     hyphenate(textbox);
