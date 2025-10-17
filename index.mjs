@@ -377,15 +377,16 @@ const findPassage = async (cy, e) => {
 
     const str = e.target.value;
 
-    if(!state.dbworker) state.dbworker = await createSqlWorker(Database);
+    //if(!state.dbworker) state.dbworker = await createSqlWorker(Database);
+    if(!state.dbworker) state.dbworker = await openDb(Database);
     const likes = str.split('|').map(l => `${SqlString.escape('%' + l + '%')}`);
     const sqlstr = likes.length == 1 ? 
         `SELECT id FROM texts WHERE texts.text LIKE "%${str}%"` :
         'SELECT id FROM texts WHERE texts.text LIKE ' + likes.join(' OR texts.text LIKE ');
-    const ret = await state.dbworker.db.query(sqlstr);
+    const ret = await state.dbworker.exec(sqlstr);
     clearFound(cy);
-    for(const el of ret) {
-        const found = cy.$(`[id = '${el.id}']`);
+    for(const el of ret[0].values) {
+        const found = cy.$(`[id = '${el[0]}']`);
         found.addClass('found');
     }
     blackout.style.display = 'none';

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Abhinavarājalakṣmī</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Digital Library of India</orgName>
+                  </repository>
+                  <idno type="shelfmark">2015.344534</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archive.org/details/amarakoshaabhinavarajalakshmiguruprasadshastri_178_J</idno><idno type="URI">https://archive.org/details/in.ernet.dli.2015.344534/</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>A Sanskrit commentary by <persName xml:lang="sa">Raghunandanaprasāda Śāstrī</persName>.</summary>
+                  
+               <msItem xml:id="AEd" defective="false"><title xml:lang="sa">Abhinavarājalakṣmī</title><author xml:lang="sa">Raghunandanaprasāda Śāstrī</author><textLang mainLang="san"/><finalRubric xml:lang="sa"><pb n="384" facs="362"/>
+<lb n="12"/>iti śrīpaṇḍitaprakāṇda–marumaṇḍalamārttaṇḍa–śrīsnehirāmaśastrīṇāṃ pautreṇa,
+<lb n="13"/>prativādibhayaṅkarabhayaṅkaraśrīśivanārāyaṇaśāśriṇāṃ putreṇa
+<lb n="14"/>‘kavicaktracakravartti’ paṇḍitaraghunandanaprasādaśāstriṇā-
+<lb n="15"/>abhyūhitāyām amarakośaṭīkāyāṃ tṛtīya<space/>kāṇḍaḥ |</finalRubric><colophon xml:lang="sa"><pb n="384" facs="362"/>
+<lb n="15"/>❀ ॐ hariḥ ॐ vaiśākhakṛṣṇā 11 || sa॰ vaikra॰ 1984 ❀</colophon></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="movable-type">
+                     <supportDesc material="paper industrial">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="page" quantity="384">The scan seems to be missing pages 33–64.</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout streams="2"/></layoutDesc>
+                  </objectDesc><handDesc/><typeDesc><typeNote scope="sole" script="devanagari" medium="ink black"/></typeDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" when="1935">The publication date given on the cover is 1935, but the colophon gives a <term xml:lang="sa">vikramasaṃvat</term> date of 1984, corresponding to 1927 CE.</origDate>
+                     
+                  <origPlace>Benares</origPlace></origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archive.org/iiif/amarakoshaabhinavarajalakshmiguruprasadshastri_178_J/manifest.json" facs="3"/></facsimile>
+<text corresp="#AEd" xml:lang="sa"><body>
+  <pb n="1" facs="13"/>
+  <p><lb n="1"/>śrīḥ</p>
+  <p><lb n="2"/>abhinavarājalakṣmyā'laṅkṛtaḥ―</p>
+  <head><lb n="3"/>amarakośaḥ</head>
+  <p><lb n="4"/>prathamakāṇḍam |</p>
+  <lg xml:id="AK1.0.1">
+    <l><lb n="5"/>yasya jñānadayāsindhor agādhasyānaghā guṇāḥ |</l>
+    <l><lb n="6"/>sevyatām akṣayo dhīrāḥ sa śriye cāmṛtāya ca || 1 ||</l>
+  </lg>
+  <head>abhinavarājalakṣmīḥ</head>
+  <lg>
+    <l>vande 'navadyasaddandyavidyodyotitadiḍ_mukhān ||</l>
+    <l>marumaṇḍalamārttaṇḍasnehirāmābhidhān_ gurūn || 1 ||</l>
+  </lg>
+  <p xml:id="AK1.0.1-comm">
+    <lb n="10"/>yasyeti | he dhīrāḥ = vidvāṃsaḥ | ‘kṛtikṛṣṭyabhirūpadhīrāḥ’ iti nāma<lb n="11"/>mālā | akṣayaḥ = anādir anantaḥ, saḥ = bha<sic>na</sic>vān_ śivaḥ, sevyatām, ‘bhavadbhi’<lb n="12"/>r iti śeṣaḥ, yasya — agādhasya = anavacchinnamahimātiśayasya, [jñānañ ca dayā <lb n="13"/>ca — jñānadaye, jñānadayayoḥ sindhur iva sindhuḥ — tasya —] jñānadayāsindhoḥ = jñāna<pb n="2" facs="14"/><lb n="1"/>sāgarasya, dayānidheś ca, anaghā = manoharāḥ, pavitrāś ca, kṣamāśāntyaiśvaryādayo — <lb n="2"/>guṇāḥ santi | kasmai prayojanāya sevyatām ity ata āha — śriye = kalyāṇāya, <lb n="3"/>trivargasukhāya, amṛtāya = mokṣāya ca | yad vā ― he anaghāḥ | bhavadbhiḥ sa <lb n="4"/>dhīrāḥ sevyatām | dhiyaṃ = jñānaṃ rāti = dadātīti dhīrāḥ = jñānapradaḥ, śivaḥ, <lb n="5"/>śriye = sakalasukhasampattaye, amṛtāya ca = mokṣāya ca | yad vā — ‘yasye’ty atra <lb n="6"/>‘iko yaṇ acī’ty anena kṛtayaṇādeśasya īkārasya praśleṣaḥ, (ī – asyeti praśleṣaḥ) <lb n="7"/>asya = śivasya, ī = lakṣmīḥ, anaghā = pavitrā guṇāś ca santi, ataḥ sa <lb n="8"/>prasanno bhagavāñ śivo yuṣmabhyaṃ bhogamokṣalakṣmīṃ kṛpayā dāsyatīti bhāvaḥ | <lb n="9"/>jñāyate 'nena jñānaṃ = śāstraṃ, dayā = nirupādhiḥ paraduḥkhahānecchā, tayoḥ sāgarasye<lb n="10"/>vāgādhasya, yataḥ kāruṇikāt_ sarvā vidyā prādurbhavantīty arthaḥ | kathambhūtaḥ sa — <lb n="11"/>akṣayaḥ = nityaśuddhabuddhasaccidānandarūpaḥ — ity arthaḥ — iti saṅ_kṣepaḥ || 1 ||
+  </p>
+</body></text></TEI>

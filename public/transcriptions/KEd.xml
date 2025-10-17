@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Kṛṣṇamitraṭīkā</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Digital Library of India</orgName>
+                  </repository>
+                  <idno type="shelfmark">2015.405869</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>A short commentary by <persName xml:lang="sa">Kṛṣṇamitra</persName>. It is unclear where this book was published; a later 2005 edition was published in Jaipur, with an additional Hindi introduction and Hindi commentary.</summary>
+                  
+               <msItem xml:id="KEd" defective="false"><title xml:lang="sa">Kṛṣṇamitraṭīkā</title><author xml:lang="sa">Kṛṣṇamitra</author><textLang mainLang="san"/><finalRubric xml:lang="sa"><pb n="554" facs="568"/><lb n="9"/>iti śrīmadācāryakṛṣṇamitrakṛtāyām amarakośaṭīkāyāṃ tṛtīyaḥ kāṇḍaḥ <lb n="10"/>samāptaḥ || 3 ||</finalRubric></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="movable-type">
+                     <supportDesc material="paper industrial">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="page" quantity="206">i-xvi, 1-187, 1-3</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc/><typeDesc><typeNote scope="sole" script="devanagari" medium="ink black"/></typeDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" when="1972"/>
+                     <origPlace>Kuala Lumpur</origPlace>
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Mishra, Satyadeva, ed. 1972. <title>Amarakośa of Amarasimha. With the commentary of Ācārya Kṛṣṇamitra.</title> Kuala Lumpur: University of Malaya.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archive.org/iiif/in.ernet.dli.2015.405869/manifest.json"/></facsimile>
+<text corresp="#KEd" xml:lang="sa"><body>
+  <head><lb n="1"/>amarakośaḥ</head>
+  <p><lb n="2"/>kṛṣṇamitraṭīkopetaḥ</p>
+  <head><lb n="3"/>prathamaḥ kāṇḍaḥ</head>
+  <p><lb n="4"/>1. svargavargaḥ</p>
+  <lg xml:id="AK1.0.1">
+    <l><lb n="5"/>yasya jñānadayāsindhor agādhasyānaghā guṇāḥ |</l>
+    <l><lb n="6"/>sevyatām akṣayo dhīrāḥ sa śriye cāmṛtāya ca || 1 ||</l>
+  </lg>
+  <p><lb n="7"/>ṭīkā</p>
+  <p><lb n="8"/>śrīrāmāya namaḥ</p>
+  <lg>
+    <l>kośavyutpādanaṃ rekhāgavayanyāyam āśritam |</l>
+    <l><lb n="9"/>padyāpatiṃpadaṃ preṣṭhaṃ prepsatām advayārthakam ||</l>
+  </lg>
+  <p xml:id="AK1.0.1-comm">
+    <pb n="1" facs="15"/><lb n="10"/>yasyeti — he dhīrāḥ sa bhagavān_ <app><lem>sevyatām</lem><rdg wit="#M">sevyatāṃ</rdg></app> | dhairyaśālinām eva sevākṣamatvād uktaṃ <lb n="11"/>dhīrā iti | sa kaḥ ? yasya guṇāḥ <app><lem>kṣā<unclear>ntyā</unclear>dayo 'ṇimādayo</lem><rdg wit="#M">jñānyādayoṇimādayo</rdg></app> vā anaghā niṣpāpāḥ | <lb n="12"/>kathaṃ bhūtasya ? jñānadayayoḥ sindhoḥ, samudrasyeva vipulādhārasya jñānavattvena paropakāra<lb n="13"/>yogyatāsevyatvaṃ <app><lem>sūcitam_</lem><rdg wit="#M">sūcitaṃ</rdg></app> <app><lem>jñānino 'pi prayojanābhāve</lem><rdg wit="#M">jñāninopi prayojanobhāve</rdg></app> kim upakāreṇety āśaṅkānivṛttaye <lb n="14"/>dayopādānam | agādhasya <app><lem>aparicchinnamahattvasya</lem><rdg wit="#M">aparicchinnamaha<unclear>tva</unclear>sya</rdg></app> nāsti kṣayo yasya <app><lem>so 'kṣayaḥ</lem><rdg wit="#M">sokṣayaḥ</rdg></app> | <lb n="15"/>kasmai prayojanāya ? śriye cāmṛtāya ca | cadvayopādānam ubhayo prādhānyasūcanāya | nāsti mṛtaṃ maraṇaṃ yatrety amṛtatvāya mokṣārtham || 1 ||
+  </p>
+</body></text></TEI>

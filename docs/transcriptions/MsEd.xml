@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Saṃkṣiptamāheśvaryā ṭīkā</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Satya Vrat Shastri Rare Book Colllection</orgName>
+                  </repository>
+                  <idno type="shelfmark">ark:/13960/s2v2bfzmsk7</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archive.org/details/HTIU_the-amarakosha-with-a-short-commentary-edited-by-lakshman-vasudev-pansikar-1908-</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>An abbreviated version of the <title xml:lang="sa">Viveka</title> commentary by <persName xml:lang="sa">Maheśvara</persName>. Third edition.</summary>
+                  
+               <msItem xml:id="MsEd" defective="false"><title xml:lang="sa">Saṃkṣiptamāheśvaryā Ṭīkā</title><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="manuscript">
+                     <supportDesc material="paper industrial">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="page" quantity="372">1-288, 1-84</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc/><typeDesc><typeNote scope="sole" script="devanagari" medium="ink black"/></typeDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" when="1908"/>
+                     <origPlace>Bombay</origPlace>
+                  </origin><provenance><p>From the collection of Satya Vrat Shastri, Defence Colony, New Delhi.</p></provenance><acquisition><p>Digitized by eGangotri.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Shastri Pansikar, Wasudev Laxman. 1908. <title>The Amarakosha with a short commentary.</title>Bombay: Tukârâm Jâvajî, Niṛṇaya-Sâgara Press. Third edition.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archive.org/iiif/HTIU_the-amarakosha-with-a-short-commentary-edited-by-lakshman-vasudev-pansikar-1908-/manifest.json"/></facsimile>
+<text corresp="#MsEd" xml:lang="sa"><body>
+<pb n="5" facs="7"/>
+  <p><lb n="1"/>|| śrīḥ ||</p>
+  <p><lb n="2"/>nāmaliṅgānuśāsanaṃ nāma</p>
+  <head><lb n="3"/>amarakoṣaḥ |</head>
+  <p><lb n="4"/>saṃkṣiptamāheśvaryā ṭīkayā sametaḥ |</p>
+  <p><lb n="5"/>prathamaṃ kāṇḍam |</p>
+  <p><lb n="6"/>1. maṅgalācaraṇam |</p>
+  <lg xml:id="AK1.0.1">
+    <l><lb n="7"/>yasya jñānadayāsindhor agādhasyānaghā guṇāḥ <space/> 1</l>
+    <l><lb n="8"/>sevyatām akṣayo dhīrāḥ sa śriye camṛtāya ca <space/> 2</l>
+  </lg>
+  <p><lb n="9"/>2. prastāvanā |</p>
+  <lg xml:id="AK1.0.2">
+    <l><lb n="10"/>samāhṛtyānyatantrāṇi saṃkṣiptaiḥ pratisaṃskṛtaiḥ <space/> 3</l>
+    <l><lb n="11"/>saṃpūrṇam ucyate vargair nāmaliṅgānuśāsanam <space/> 4</l>
+  </lg>
+  <p xml:id="AK-1.0.1-comm">
+ <lb n="12"/>1–2. bho dhīrāḥ, agādhasyātigambhīrasya jñānadayāsindhor jñānakaruṇayoḥ samu<lb n="13"/>drasya yasyānaghā nirmalā guṇāḥ kṣāntyādayaḥ santi, so 'kṣayaḥ śriye saṃpattaye 'mṛtāya <lb n="14"/>mokṣārthaṃ ca bhavadbhiḥ sevyatām ārādhyatām ||
+  </p>
+</body></text></TEI>
