@@ -5,7 +5,7 @@ const langs = new Map([
     ['hindi', ['MPEd','RBEd','RPEd','RDEd','DhaEd','BhoEd','DEd','SSEd','SEd','VaiEd','VREd','RamEd','CaDhāEd']],
     ['kannada',['RSEd','JM278','LREd','IO-1758','RE33635','SBB-3421','JVBEd','Mysore1927']],
     ['nepali', ['BKEd','KGEd','KGEd1969','RUEd']],
-    ['newar',['KE6-7','KNNA2b','KB267-9','KNNA6','KNNA7','CAdd1698','KA17-12(1)','KA17-12(2)','KA321-15','Kgl-Nepal124']],
+    ['newar',['KE6-5','KNNA2b','KB267-9','KNNA6','KNNA7','CAdd1698','KA17-12(1)','KA17-12(2)','KA321-15','Kgl-Nepal124','Āśā-4427','Āśā-4437','Āśā-6221','UT-MF13-2-6']],
     ['malayalam', ['BPEd','PMEd','MWEd']],
     ['marathi', ['EAP248-1-81']],
     ['sinhala',['WEd','GEd','Tü-3085']],

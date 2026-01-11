@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakoṣa</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Āśā Archives</orgName>
+                  </repository>
+                  <idno type="shelfmark">3417</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archive.org/details/4456_20250818</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>Contains the <term xml:lang="sa">svarādikāṇḍa</term> with a marginal commentary.</summary>
+                  
+               <msItem xml:id="Āśā-4456" defective="false"><title xml:lang="sa"><term xml:lang="sa">anonymous commentary</term></title><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="paper handmade">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="36"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="devanagari" medium="ink black"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archive.org/iiif/4456_20250818/manifest.json" facs="2"/></facsimile>
+<text corresp="#Āśā-4456" xml:lang="sa"><body>
+  <pb n="1v" facs="2"/>
+  <p><lb n="1"/>1 he dhīrāḥ sa bhagavān_ sevyatāṃ · dhairyaśālina eva sevituṃ śaknuvaṃti iti tān eva saṃbodhayati | sa kaḥ yasya guṇāḥ maitrīmaryādayo 'ṇimādayo vā · anaghāḥ niṣpāpāḥ rāgādyasaṃvalitā iti yāvat | <lb n="2"/>yasya kiṃbhūtasya · jñānadayā sindhoḥ jñānaṃ samastaviṣayā'vabodhaḥ svārtham anapekṣa paraduḥkhaharaṇecchā dayā · tayor ambutulyāyāḥ sindhor iva sindhoḥ | sindhuśabdo 'tra vipulādhāratvād upacaritaḥ sindhusā<lb n="3"/>myam · agādhasya anavacchinnamahimna <space/> sa kiṃbhūtaḥ akṣayaḥ maraṇādirahitaḥ kasmai prayojanāyai · śriye · lakṣmīsarasvatīdhītrivargasaṃpadvibhūtaye | punaḥ kasmai prayojanāya · amṛtāya mokṣāya || 1 ||</p>
+</body></text></TEI>
