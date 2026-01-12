@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakoṣa</title> with Newar commentary</title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>University of Tokyo</orgName>
+                  </repository>
+                  <idno type="shelfmark">MF13-2-6</idno>
+                  <idno type="alternate"><idno>Matsunami Catalogue 15</idno></idno>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>This manuscript is part of the Kawaguchi Ekai Collection, preserved at the General Library of the University of Tokyo. </summary>
+                  
+               <msItem xml:id="UT-MF13-2-6" defective="false"><title xml:lang="sa">Amarakoṣa <term xml:lang="en">with Newar commentary</term></title><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf talipot">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="80">Missing folio 41.</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     <layout style="inline-commentary"/></layoutDesc>
+                  </objectDesc><handDesc/><typeDesc><typeNote scope="sole" script="newa" medium="ink black"/></typeDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole" quantity="1"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://dzkimgs.l.u-tokyo.ac.jp/iiif/skt2020/0015/manifest.json" facs="6"/></facsimile>
+<text corresp="#UT-MF13-2-6" xml:lang="sa"><body>
+  <p><lb n="1v" facs="6"/><gap quantity="1" unit="akṣara" reason="lost"/> namaḥ sarvvajñāya ||</p>
+  <lg xml:id="AK1.0.1">
+    <l>yasya jñānadayāsiṃdhor agādhasyānaghā <unclear>gu</unclear>ṇāḥ |</l>
+    <l>sevyatām akṣayo dhīrāḥ sa śriye cāmṛtāya ca ||</l>
+  </lg>
+  <p>
+    gvanasa <unclear>ātmāsa𑑍 jñāna no</unclear> <lb n="2"/>dayā no𑑍 mahāsamudratvaṃ thyaṃ𑑍 paripūrarayaṃ𑑍 cyaṃnaṅā¦na𑑍 niṣpāpa jasyaṃ vaṃnagva𑑍 guṇatholva | amo parameśvara | tathāgatatvaṃ𑑍 | akṣa<lb n="3"/>ya avināsī jasyaṃ vaṃnaṃgva𑑍 ihalokasa𑑍 lakṣmī | pa¦ratarasa | mokṣa gāva jñānīlokana | sevarapā gvana ||
+
+  </p>
+</body></text></TEI>

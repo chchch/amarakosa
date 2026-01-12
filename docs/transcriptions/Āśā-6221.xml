@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakoṣa</title> with marginal Newar commentary</title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Āśā Archives</orgName>
+                  </repository>
+                  <idno type="shelfmark">6921</idno>
+                  <idno type="alternate"><idno>DPN 6221</idno></idno>
+               <idno type="URI">https://archive.org/details/6221_20250816/</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>This manuscript contains a mariginal commentary in Newar, which is titled <title xml:lang="sa">Pādaṭippaṇī</title> on the library title card.</summary>
+                  
+               <msItem xml:id="Āśā-6221" defective="false"><title xml:lang="sa"><term xml:lang="en">marginal commentary on the </term> Amarakoṣa</title><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="paper handmade">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="146">Missing folio 9.</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="major" script="newa" medium="ink black"/><handNote scope="major" script="newa" medium="ink red"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archive.org/iiif/6221_20250816/manifest.json" facs="4"/></facsimile>
+<text corresp="#Āśā-6221" xml:lang="sa"><body>
+  <p><pb n="1v" facs="4"/><lb n="1"/>1 gvamhaṃ yasya me śvarasa ātmāsa jñāna noṃ dayā noṃ samudra rthya pūrṇṇa yāṅa coṅa avināśī jasyaṃ ihatraya sukha paratraya mokṣa yeva jñāni</p>
+</body></text></TEI>
