@@ -90,12 +90,12 @@ section div.wide {
 
 .lem {
     white-space: nowrap;
-    margin-right: 0.4rem;
+    /*margin-right: 0.4rem;*/
 }
 
 .lem .rdg-text {
     font-weight: bold;
-    margin-right: 0.5em;
+    margin-right: 0.4rem;
     white-space: normal;
 }
 
