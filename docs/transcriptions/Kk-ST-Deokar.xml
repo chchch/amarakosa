@@ -1183,18 +1183,12 @@ Kk-p1: Kk-D doesn't match alignment.
       bdud rtsi'i 
     </rdg>
   </app>
-  <app loc="808,811">
+  <app loc="808,813">
     <rdgGrp type="lemma" select="#Kk-ST">
-      <lem>med</lem>
-      <rdg type="minor" wit="#Kk-ST">
-        med
-      </rdg>
+      <lem>med de</lem>
+      <rdg type="minor" wit="#Kk-ST">med de</rdg>
     </rdgGrp>
-    <rdg wit="#Kk-D">phyi</rdg>
-  </app>
-  <app loc="811,813">
-    <lem wit="#Kk-ST">de</lem>
-    <rdg wit="#Kk-D">r  te</rdg>
+    <rdg wit="#Kk-D">phyir  te</rdg>
   </app>
   <app loc="835,839">
     <lem wit="#Kk-ST">gyis</lem>
