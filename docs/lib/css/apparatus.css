@@ -1,0 +1,327 @@
+section div.wide {
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.text-block {
+    top: 0;
+    padding-top: 1rem;
+    width: 60%;
+    font-size: 1.4rem;
+    position: sticky;
+}
+.text-block.nolemmata .lem-inline {
+    text-decoration: none;
+}
+
+.text-block.nolemmata .lem-inline:hover, 
+.text-block.nolemmata .lem-inline:hover * {
+    background: none;
+}
+
+.apparatus-block {
+    top: 0;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    width: 40%;
+    padding-left: 2rem;
+    line-height: 1.3rem;
+    position: sticky;
+}
+.apparatus-block[lang^='bo-Tibt'] {
+  line-height: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+.apparatus-block span.note::after,
+.apparatus-block span.note::before {
+    content: '';
+}
+
+.apparatus-block span.note {
+    font-size: 90%;
+    white-space: normal;
+}
+.ignoredtags {
+    display: none;
+}
+.app {
+    /*margin-right: 2em;*/
+    white-space: normal;
+}
+.app::after {
+  content: ' ';
+}
+
+.lem-inline:not(.lem-anchor) {
+    /*display: inline-block;*/
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(180,184,196);
+    text-decoration-thickness: from-font;
+}
+.lem-inline:not(.lem-anchor)[lang^='bo-Tibt'] {
+  text-underline-offset: -0.3rem;
+}
+
+.lem-anchor {
+    font-variant: super;
+}
+.lem .caesura {
+    display: none;
+}
+.lem-inline:hover, .lem-inline:hover *, .lem-inline.highlit, .lem-inline:has(.highlit), .lem .rdg-text:hover, .highlit, .highlit * { /* TODO: clean this up if highlighting is simplified */
+    text-decoration: none;
+    background: rgba(255,255,128,1);
+}
+
+.lightlit {
+    background: rgba(255,255,128,0.5);
+    width: fit-content;
+}
+/*
+.app-inline:hover .rdgs-inline, .app-inline:hover .lem-wit {
+    display: inline;
+}
+*/
+
+.lem {
+    white-space: nowrap;
+    margin-right: 0.4rem;
+}
+
+.lem .rdg-text {
+    font-weight: bold;
+    margin-right: 0.5em;
+    white-space: normal;
+}
+
+.lem .rdg-text::after {
+    content: ']';
+}
+
+.negapp .lem-wit {
+  display: none;
+}
+
+.rdg-text {
+    white-space: normal;
+}
+
+.rdgs {
+    white-space: normal;
+}
+
+.rdg {
+    white-space: nowrap;
+    margin-right: 0.4rem;
+}
+
+.rdg-wit {
+    white-space: normal;
+}
+
+.rdg-alt {
+    display: none;
+    font-variant: normal;
+    margin-left: 0.2rem;
+    white-space: normal;
+    cursor: text;
+    color: black;
+}
+
+.rdg-alt:before {
+    content: ': ';
+}
+
+.mshover, a:link.mshover {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgb(168,81,16);
+}
+
+.rdg:not(:last-child) .rdg-wit::after, .lem-wit::after {
+    content: ';';
+}
+
+.rdg:last-child .rdg-wit::after {
+    content: '.';
+}
+
+.rdg span.milestone.diplo::before, .rdg span.milestone.diplo.biggap::before {
+    content: '';
+}
+.rdg span.milestone.diplo, .rdg span.milestone.diplo.biggap {
+    font-size: 1rem;
+}
+
+.lem-wit {
+    white-space: normal;
+    margin-right: 0.5em;
+}
+
+.msid {
+    font-variant: small-caps;
+    font-size: 0.9rem;
+    word-break: normal;
+    white-space: nowrap;
+}
+.msid + .msid {
+    margin-left: 0.2rem;
+}
+.msid a:link, .msid a:active,
+a.alignment-pointer:link, a.alignment-pointer:active {
+    text-decoration: none;
+    text-shadow: none;
+    background: none;
+}
+
+.msid a[href]::after {
+    background: none;
+    padding-right: 0;
+}
+
+.listWit {
+    display: none;
+}
+
+.alignment-pointer svg {
+    stroke: #A85110;
+    stroke-width: 10;
+    width: 1.2rem;
+    height: 1rem;
+    vertical-align: middle;
+}
+
+.alignment-pointer:hover svg {
+    stroke: #2B73B7;
+}
+
+#blackout {
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: none;
+    backdrop-filter: blur(5px) brightness(60%) saturate(150%);
+}
+#alignment-viewer {
+    max-width: 60%;
+    max-height: 90vh;
+    overflow: auto;
+    background-color: #fffff8;
+    padding: 10px 10px 10px 0;
+    font-size: 1.1rem;
+}
+
+#alignment-viewer table {
+    border-collapse: collapse;
+}
+
+#alignment-viewer th {
+    background-color: #fffff8;
+    padding: 0 1rem 0 1rem;
+    position: sticky;
+    left: 0;
+    text-align: left;
+    writing-mode: horizontal-tb;
+    word-break: keep-all;
+}
+
+#alignment-viewer td {
+    font-size: inherit;
+    line-height: revert;
+    white-space: pre;
+    padding: 0;
+}
+#alignment-viewer td:empty {
+    background-color: rgb(240,240,240);
+}
+
+#alignment-viewer .group-start {
+    border-right: 0;
+    border-left: 4px solid #ffffff;
+    padding-right: 0;
+}
+#alignment-viewer .group-internal {
+    border-left: 0;
+    border-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+#alignment-viewer .group-end {
+    border-left: 0;
+    border-right: 4px solid #ffffff;
+    padding-left: 0;
+}
+
+.anchor::after, .anchored-note::before {
+  content: '†';
+  color: rgb(168,81,16);
+  vertical-align: super;
+  cursor: default;
+}
+.anchor[data-n]::after, .anchored-note[data-n]::before {
+  content: attr(data-n);
+}
+
+.apparatus-block .anchored-note {
+    display: inline-block;
+}
+
+.anchor.highlit::after {
+    background: rgba(255,255,128,1);
+}
+
+#apparatusbutton {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 5px;
+    display: none;
+    height: 36px;
+    width: 34px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+#apparatusbutton:hover {
+    background: #ff9900;
+    border: 1px solid #ff9900;
+}
+
+#translationsvg {
+    display: none;
+}
+
+.parallel {
+    display: flex;
+}
+
+.parallel > div {
+    flex-basis: 100%;
+}
+
+.parallel > .wide {
+    justify-content: flex-start;
+}
+
+.parallel .text-block {
+    width: unset;
+}
+
+@media (max-width: 600px) {
+    #alignment-viewer {
+        max-width: 90%;
+    }
+}
+
