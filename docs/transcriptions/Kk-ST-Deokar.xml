@@ -52,28 +52,28 @@ mchog gi snying rje la sogs pa yon tan rgya che ba nyid gyi phyir gzhan gyi phan
         <l>'gal ba rnams bral ngur pa gnyis gnyis gnyer gyur khros pa yi//</l>
         <l>spre'u 'i 'gram pa khros pas dmar ba smag las rnam par 'byed//</l>
       </lg>
-      <p>
+      <p xml:id="Kk-p5">
 'dir mun pa dang bral bas ngur pa'i mya ngan bsal ba la sogs pas ma brjod kyang nyi ma'i mtshan nyid kyi don gsal bar mtshon pa'o zhes so//
       </p>
-      <p>
+      <p xml:id="Kk-p6">
 tshigs su bcad pa 'di bstan bcos la'ang sbyar te de la smra ba po snyan ngag mkhan la sogs pa la'am/ yang na rig pa'i gnas mtha' dag la shes pa'i sbyin pa sbyin te de'i i zhes pa ni dpal te phun sum tshogs pa'o// shes pa'i sbyin pa phun sum tshogs pa rgyur gyur pa des rgya mtsho dang mtshungs pas bstan bcos ni rgya mtsho ste 'di ni rgyu'i gzugs can gyi rgyan no// dper na/ zab pas rgya mtsho zhes pa lta bu'o/ de'i gting med pa nyid ni ji ltar bshad pa'i yon tan dang ldan pa des mtshungs pa med pa nyid do//
       </p>
-      <p>
+      <p xml:id="Kk-p7">
 sdug bsngal dang sdig pa dang phongs pa rnams la a ghaṃ zhes mngon par brjod pas skyon med pa'i yon tan ni bde ba'i rgyur gzhung nyung ba nyid dang gsal ba la sogs pa'o// bsten pa ni nyan pa dang bsam pa dang 'chad pa la sogs pa'o// mi zad pa ni yang dag par rdzogs pa nyid de/
       </p>
-      <p>
+      <p xml:id="Kk-p8">
 ming gi sgra thams cad gyis gnas skabs kyi'am rab tu gsal bar bya ba'i rtags kun tu len par byed do// 'di ltar las gang yin pa de yang dag par rab tu sbyin par dgongs pa ste/ aṇ dag gal te las yin pa gang de byed pa po'o// de 'dir 'dod pa na spyod pa'i phyir dang/ thos pa'i phyir yang gnas skabs nyid kyi rgya mtsho'i sgra'i rtags kyis de zhes nges par bstan pa ste ming dang rtags rjes su bstan pa'i sgra ni ma yin no//
       </p>
-      <p>
+      <p xml:id="Kk-p9">
 dpal ni sde tshan gsum gyi phun sum tshogs pa ste/ ji skad du/ slob dpon byā ḍis/
       </p>
-      <lg>
+      <lg xml:id="Kk-p10">
         <l>dpal mo dbyangs can blo dang sde gsum gyi//</l>
         <l>phun sum tshogs dang 'byor ba mdzes pa dang//</l>
         <l>'tshogs chas 'jigs med tshal dang 'phags pa dang//</l>
         <l>bdud rtsi rnams la dpal zhes rab tu grags//</l>
       </lg>
-      <p>
+      <p xml:id="Kk-p11">
 zhes so// yang na/ gang zhig ngag gi rang bzhin thams cad shes pa'i mtshan nyid ni rang don phun sum tshogs pa dang/ gang zhig de'i rgyu can sde tshan gsum gyi rgyu ni gzhan gyi don phun sum tshogs pa ste de gnyis ni dpal lo// rang dang gzhan gyi don phun sum tshegs pa dang bsod nams dang ye shes gyi tshogs la 'bad pas thar pa thob pa ni bdud rtsi'o zhes so//
       </p>
     </body>
@@ -1395,5 +1395,792 @@ Kk-p1: Kk-D doesn't match alignment.
       <rdg type="minor" wit="#Kk-ST">dmar ba smag las rnam par 'byed/</rdg>
     </rdgGrp>
     <rdg wit="#Kk-D">mkhur tshos  'gram pa zangs mdog  bzhin/</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk-p5" source="alignments/Kk-p5.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="0,4">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem> 'dir</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        'dir
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">/zhes pa 'dir </rdg>
+  </app>
+  <app loc="9,13">
+    <lem wit="#Kk-ST">dang</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="13,17">
+    <lem wit="#Kk-ST">bral</lem>
+    <rdg wit="#Kk-D">
+      
+        
+      
+      bsal 
+    </rdg>
+  </app>
+  <app loc="24,28">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa'i</lem>
+      <rdg type="minor" wit="#Kk-ST">pa'i</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">ba'i</rdg>
+  </app>
+  <app loc="35,41">
+    <lem wit="#Kk-ST">bsal ba</lem>
+    <rdg wit="#Kk-D">bsal  te/ ngur pa  pho mo  mtshan mo  lhan cig mi gnas pa yin la/ de</rdg>
+  </app>
+  <app loc="47,52">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pas ma</lem>
+      <rdg type="minor" wit="#Kk-ST">pas ma </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa bsal bas/</rdg>
+  </app>
+  <app loc="52,62">
+    <lem wit="#Kk-ST">brjod kyang</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="79,82">
+    <lem wit="#Kk-ST">kyi</lem>
+    <rdg wit="#Kk-D">
+      
+        
+      
+      ma bshad kyang 
+    </rdg>
+  </app>
+  <app loc="85,89">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>gsal</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        gsal 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"> gyis rab tu gsal </rdg>
+  </app>
+  <app loc="98,102">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa'o</lem>
+      <rdg type="minor" wit="#Kk-ST">pa'o</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">par byed pa  bzhin no/</rdg>
+  </app>
+  <app loc="102,108">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>zhes so</lem>
+      <rdg type="minor" wit="#Kk-ST">zhes so</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk-p6" source="alignments/Kk-p6.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="8,12">
+    <lem wit="#Kk-ST">bcad</lem>
+    <rdg wit="#Kk-D">bca</rdg>
+  </app>
+  <app loc="26,32">
+    <lem wit="#Kk-ST">la'ang</lem>
+    <rdg wit="#Kk-D">la yang</rdg>
+  </app>
+  <app loc="39,43">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>de la</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        de la
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      'dir 
+      snyan dngags 
+    </rdg>
+  </app>
+  <app loc="49,73">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>po snyan ngag mkhan la sogs pa</lem>
+      <rdg type="minor" wit="#Kk-ST">po snyan ngag mkhan la sogs pa</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">nyid  kyis dang por </rdg>
+  </app>
+  <app loc="73,78">
+    <lem wit="#Kk-ST">la'am</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="79,85">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>yang na</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        yang na
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="110,114">
+    <lem wit="#Kk-ST">pa'i</lem>
+    <rdg wit="#Kk-D">pa</rdg>
+  </app>
+  <app loc="119,128">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa sbyin te</lem>
+      <rdg type="minor" wit="#Kk-ST">pa sbyin te</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa  dang /</rdg>
+  </app>
+  <app loc="132,141">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>i zhes pa ni</lem>
+      <rdg type="minor" wit="#Kk-ST">i zhes pa ni</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="145,147">
+    <lem wit="#Kk-ST">te</lem>
+    <rdg wit="#Kk-D">ni</rdg>
+  </app>
+  <app loc="170,174">
+    <lem wit="#Kk-ST">pa'i</lem>
+    <rdg wit="#Kk-D">pa</rdg>
+  </app>
+  <app loc="174,181">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>sbyin pa</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        sbyin pa
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">sbyin pa nyid  kyis</rdg>
+  </app>
+  <app loc="194,196">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        pa
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa'i</rdg>
+  </app>
+  <app loc="205,210">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa des</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        pa
+        des
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa'i phyir</rdg>
+  </app>
+  <app loc="223,245">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>mtshungs pas bstan bcos ni</lem>
+      <rdg type="minor" wit="#Kk-ST">mtshungs pas bstan bcos ni</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">'dra  bas/</rdg>
+  </app>
+  <app loc="254,257">
+    <lem wit="#Kk-ST">ste</lem>
+    <rdg wit="#Kk-D"> ste bstan bcos  so/ /</rdg>
+  </app>
+  <app loc="284,286">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>no</lem>
+      <rdg type="minor" wit="#Kk-ST">no/ /</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"> te/</rdg>
+  </app>
+  <app loc="288,294">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>dper na</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        dper na
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">ji ltar/</rdg>
+  </app>
+  <app loc="310,323">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>zhes pa lta bu'o</lem>
+      <rdg type="minor" wit="#Kk-ST">zhes pa lta bu'o/ /</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"> dang mtshungs  zhes pa bzhin  no/ /</rdg>
+  </app>
+  <app loc="346,350">
+    <lem wit="#Kk-ST">ltar</lem>
+    <rdg wit="#Kk-D">skad</rdg>
+  </app>
+  <app loc="373,378">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa des</lem>
+      <rdg type="minor" wit="#Kk-ST">pa des</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"><lb n="7"/>pas</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk-p7" source="alignments/Kk-p7.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="10,32">
+    <lem wit="#Kk-ST">dang sdig pa dang phongs pa</lem>
+    <rdg wit="#Kk-D"> gyis gzir ba </rdg>
+  </app>
+  <app loc="39,44">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>a ghaṃ</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        a ghaṃ 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      sdig pa 
+    </rdg>
+  </app>
+  <app loc="61,64">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pas</lem>
+      <rdg type="minor" wit="#Kk-ST">pas</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"> de/</rdg>
+  </app>
+  <app loc="64,69">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>skyon</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        skyon 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      sdig 
+    </rdg>
+  </app>
+  <app loc="72,76">
+    <lem wit="#Kk-ST">pa'i</lem>
+    <rdg wit="#Kk-D"> ni</rdg>
+  </app>
+  <app loc="82,84">
+    <lem wit="#Kk-ST">ni</lem>
+    <rdg wit="#Kk-D">nyid  dang /</rdg>
+  </app>
+  <app loc="96,102">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>gzhung</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        gzhung
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="109,113">
+    <lem wit="#Kk-ST">nyid</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="123,125">
+    <lem wit="#Kk-ST">la</lem>
+    <rdg wit="#Kk-D">nyid la</rdg>
+  </app>
+  <app loc="144,148">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>nyan</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        nyan 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      thos 
+    </rdg>
+  </app>
+  <app loc="177,181">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa'o</lem>
+      <rdg type="minor" wit="#Kk-ST">pa'o</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pas so/ /</rdg>
+  </app>
+  <app loc="214,216">
+    <lem wit="#Kk-ST">de</lem>
+    <rdg wit="#Kk-D"> do/</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk-p8" source="alignments/Kk-p8.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="0,4">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem> ming</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        ming 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">/yang na ming </rdg>
+  </app>
+  <app loc="18,37">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>gyis gnas skabs kyi'am</lem>
+      <rdg type="minor" wit="#Kk-ST">gyis gnas skabs kyi'am</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"> kyi go rims  dang /</rdg>
+  </app>
+  <app loc="37,42">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>rab tu</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        rab tu 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      rtags 
+    </rdg>
+  </app>
+  <app loc="49,52">
+    <lem wit="#Kk-ST">bya</lem>
+    <rdg wit="#Kk-D">brjod</rdg>
+  </app>
+  <app loc="52,56">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>ba'i</lem>
+      <rdg type="minor" wit="#Kk-ST">ba'i</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa'i</rdg>
+  </app>
+  <app loc="56,76">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>rtags kun tu len par byed</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        rtags kun tu
+        len par byed
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">go rims  kyi tshad</rdg>
+  </app>
+  <app loc="90,94">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>gang</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        gang
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"> dang</rdg>
+  </app>
+  <app loc="94,97">
+    <lem wit="#Kk-ST">yin</lem>
+    <rdg wit="#Kk-D">
+      mngon par 'dod 
+    </rdg>
+  </app>
+  <app loc="99,101">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>de</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        de
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"> dag la de</rdg>
+  </app>
+  <app loc="121,135">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>par dgongs pa ste</lem>
+      <rdg type="minor" wit="#Kk-ST">par dgongs pa ste</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa'o/ /</rdg>
+  </app>
+  <app loc="136,138">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>aṇ</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        aṇ
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="138,160">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>dag gal te las yin pa gang de</lem>
+      <rdg type="minor" wit="#Kk-ST">dag gal te las yin pa gang de</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">gang yang las  dang</rdg>
+  </app>
+  <app loc="166,170">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>po'o</lem>
+      <rdg type="minor" wit="#Kk-ST">po'o</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">po  dag las aṇ dag go/ /</rdg>
+  </app>
+  <app loc="172,174">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>de</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        de 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">de la</rdg>
+  </app>
+  <app loc="195,204">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>phyir dang</lem>
+      <rdg type="minor" wit="#Kk-ST">phyir dang</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="213,218">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>phyir</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        phyir
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">don  g</rdg>
+  </app>
+  <app loc="218,231">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>yang gnas skabs</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        yang
+        <lb n="4"/>gnas skabs 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">yi go rims </rdg>
+  </app>
+  <app loc="235,238">
+    <lem wit="#Kk-ST">kyi</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="249,255">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>sgra'i</lem>
+      <rdg type="minor" wit="#Kk-ST">sgra'i</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">sgra  ste de ni</rdg>
+  </app>
+  <app loc="260,266">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>kyis de</lem>
+      <rdg type="minor" wit="#Kk-ST">kyis de </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="282,287">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa ste</lem>
+      <rdg type="minor" wit="#Kk-ST">pa ste</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"> te/</rdg>
+  </app>
+  <app loc="315,328">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>sgra ni ma yin no</lem>
+      <rdg type="minor" wit="#Kk-ST">sgra ni ma yin no</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">sgra'i'o/</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk-p9" source="alignments/Kk-p9.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="36,39">
+    <lem wit="#Kk-ST">ste</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="40,48">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>ji skad du</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        ji skad du
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">'o de yang</rdg>
+  </app>
+  <app loc="60,63">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>ḍis</lem>
+      <rdg type="minor" wit="#Kk-ST">ḍis</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">ḍas/</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk-p10" source="alignments/Kk-p10.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="0,6">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem> dpal mo</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        dpal mo 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      pal dang 
+    </rdg>
+  </app>
+  <app loc="13,16">
+    <lem wit="#Kk-ST">can</lem>
+    <rdg wit="#Kk-D">dang</rdg>
+  </app>
+  <app loc="19,23">
+    <lem wit="#Kk-ST">dang</lem>
+    <rdg wit="#Kk-D">yi</rdg>
+  </app>
+  <app loc="39,42">
+    <lem wit="#Kk-ST">sum</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="48,52">
+    <lem wit="#Kk-ST">dang</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="57,59">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>ba</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        ba
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pas</rdg>
+  </app>
+  <app loc="64,70">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa dang</lem>
+      <rdg type="minor" wit="#Kk-ST">pa dang/ /</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">par gyur rnams la/ /</rdg>
+  </app>
+  <app loc="72,83">
+    <lem wit="#Kk-ST">'tshogs chas</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="83,88">
+    <lem wit="#Kk-ST">'jigs</lem>
+    <rdg wit="#Kk-D">
+      'jigs pa 
+    </rdg>
+  </app>
+  <app loc="91,112">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>tshal dang 'phags pa dang</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        tshal dang 'phags pa dang
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa'i yo byad  gang yin pa'i/ /</rdg>
+  </app>
+  <app loc="114,129">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>bdud rtsi rnams la</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        bdud rtsi rnams la
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">yon tan  de yang</rdg>
+  </app>
+  <app loc="142,147">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>grags</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        grags
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">bshad/</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk-p11" source="alignments/Kk-p11.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="0,6">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem> zhes so</lem>
+      <rdg type="minor" wit="#Kk-ST">/zhes so/ /</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">/ces gsungs  so/ /</rdg>
+  </app>
+  <app loc="15,27">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>gang zhig ngag</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        gang
+        zhig ngag 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      
+        
+      
+      thams cad mkhyen pa'i gsung 
+    </rdg>
+  </app>
+  <app loc="38,54">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>thams cad shes pa'i</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        thams cad shes pa'i 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">gyi</rdg>
+  </app>
+  <app loc="64,66">
+    <lem wit="#Kk-ST">ni</lem>
+    <rdg wit="#Kk-D"> gang yin pa ni</rdg>
+  </app>
+  <app loc="66,70">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>rang</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        rang 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      rang gi 
+    </rdg>
+  </app>
+  <app loc="88,92">
+    <lem wit="#Kk-ST">dang</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="93,97">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>gang</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        gang
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"> yin</rdg>
+  </app>
+  <app loc="97,101">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>zhig</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        zhig 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">zhing/ /</rdg>
+  </app>
+  <app loc="164,169">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>gnyis</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        gnyis
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">gnyis ka</rdg>
+  </app>
+  <app loc="175,177">
+    <rdgGrp type="lemma" select="#Kk-D">
+      <lem>lo</lem>
+      <rdg type="minor" wit="#Kk-D"> lo</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-ST">la'o/</rdg>
+  </app>
+  <app loc="205,211">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>tshegs</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        tshegs 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">tshogs</rdg>
+  </app>
+  <app loc="235,238">
+    <lem wit="#Kk-ST">gyi</lem>
+    <rdg wit="#Kk-D">kyi</rdg>
+  </app>
+  <app loc="250,253">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pas</lem>
+      <rdg type="minor" wit="#Kk-ST">pas</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa  las</rdg>
   </app>
 </listApp></standOff></TEI>
