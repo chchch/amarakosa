@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <script src="../lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amarakoṣa</title>, with Sinhalese commentary</title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Internet Archive</orgName>
+                  </repository>
+                  <idno type="shelfmark">ark:/13960/s2nbx2txn04</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archive.org/details/wimalajoti-1934</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>This edition of the <title xml:lang="sa">Amarakoṣa</title> includes a Sinhalese commentary by Wimalajoti Thero, based on previous printed commentaries in Sinhalese and Sanskrit as well as, according to the preface, manuscript evidence.</summary>
+                  
+               <msItem xml:id="WEd" defective="false"><title xml:lang="sa">Amarakoṣasannaya</title><textLang mainLang="san" otherLangs="sin"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="codex" rend="movable-type">
+                     <supportDesc material="paper industrial">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="page" quantity="358">4 unnumbered, i-iv, I-III, i-[vi], i-iii, 1-6, 1-279, 1-53</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc/><typeDesc><typeNote scope="major" script="sinhala" medium="ink black"/></typeDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian" when="1934"/>
+                     
+                  <origPlace>Colombo</origPlace></origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  <bibl>Vogel, Claus. 2013. <title>Indian Lexicography.</title> Revised edition. München: P. Kirchheim.</bibl></listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>ISO 15919 transliteration, apart from ṃ for anusvāra and ṛ for vocalic ṛ. Underscore to indicate explicit virāma.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archive.org/iiif/wimalajoti-1934/manifest.json"/></facsimile>
+<text corresp="#WEd" xml:lang="sa"><body>
+  <head><pb n="1" facs="22"/><lb n="1"/>namassarvajñāya.</head>
+  <p><lb n="2"/><hi rend="bold"><num xml:lang="en">1.</num> agādhasya,</hi> pātālatala rahita hō itā gæmburuvū; <hi rend="bold">jñāna<lb n="3"/>dayāsindhoḥ,</hi> næṇa kuḷuṇu sayuru banduvū: <hi rend="bold">yasya,</hi> yam_ utumekugē; <lb n="4"/><hi rend="bold">guṇāḥ,</hi> prajñā kṛpādiguṇayō; <hi rend="bold">anaghāḥ,</hi> pav_ rahita hō nirdoṣada; <lb n="5"/><hi rend="bold">akṣayaḥ,</hi> nirvvikāravū; saḥ hetema; <hi rend="bold">śriye ca,</hi> trivarga sampat_ piṇi<lb n="6"/>sada; <hi rend="bold">amṛtāya ca,</hi> nivan_ piṇisada; <hi rend="bold">dhīrāḥ,</hi> paṇḍitavaruṇi; topa<lb n="7"/>visin; <hi rend="bold">sevyatām,</hi> sevunā læbēvā.
+  </p>
+  <p>
+<lb n="8"/>mē ślokaya budun_gē naisarggika guṇānusmaraṇayen_ buddha<lb n="9"/>sōvāva karaṇulæbēvayi yana abhiprāyen_ kiyanaladæyi mē nāma<lb n="10"/>liṅgānuśāsanayehi arttha kiyana væḍitara ācāryyayan_gē sammatayi. <lb n="11"/>brahma viṣṇu maheśādi sevā kiyana ladæyi samahara ācāryyayan_gē <lb n="12"/>matayi. bhaṭṭojidīkṣitācāryyātmaja bhānudīkṣitācārīhu gurusevā <lb n="13"/>dak_vana bavak_ mut_ buddhasēvā novet_yayida amarācāryyayan_ <lb n="14"/>saugatavīmehi hetunætæyida dæḍisē kiyati. mē ācāryyayan_gē <lb n="15"/>dṛṣṭi virodha heyin_ kiyana pamaṇak_ vinā bhāratī tomō guru<lb n="16"/>sevā artthaya saphuṭa nokaran_nīya. maheśvara nam_ ācāryyayan_ <lb n="17"/>visin_ viracitavū <hi rend="bold">amarakoṣa viveka</hi> nam_ vyākhyānayehi mē buddhādi <lb n="18"/>kisiveku nodak_vā ślokārttha pamaṇak_ kiyati.
+  </p>
+  <head type="sub"><lb n="19"/>purātana san_naya.</head>
+  <p>
+<lb n="20"/>śāstrārambhayehi sarvajñayan_vahan_sēṭa pūjā vidhāna kaḷakal_hi <lb n="21"/>parahitānuśāsanayen_ viṣnopasamaya karan_nāvū puṇyasam_pattiya <lb n="22"/>ræs_karan_nō <hi rend="bold">“yasya jñānadayāsindhoḥ”</hi> yanādī mē ślokaya <lb n="23"/>dæk_vūha: <hi rend="bold">jñāna,</hi> samasta vastuviṣayavū parijñānayen_ hā; <hi rend="bold">dayā,</hi> duḥkha<lb n="24"/>yen_ samuddharaṇavāñjā lakṣaṇavū karuṇāyen; <hi rend="bold">sindhoḥ,</hi> sāgaraya <lb n="25"/>vænivū nohot_ uktalakṣaṇavū jñānadayādedenāṭa vipula dhāra <lb n="26"/>heyin_ sāgaraya vænivū; <hi rend="bold">agādhasya,</hi> anut_ visin_ pātālatala no<lb n="27"/>dak_nā lada jñānadayādedenāgē keḷavara ætiheyin_ pirisindagata <lb n="28"/>nohæk_kāvū gāmbhīryya æti; <hi rend="bold">yasya,</hi> yam_ sarvajñavarayakugē; <hi rend="bold">guṇāḥ,</hi> <lb n="29"/>maitrīkṣamopaśamādī guṇayō; <hi rend="bold">anaghāḥ,</hi> rāgādidoṣa rahitayō da; <lb n="30"/><hi rend="bold">dhīrāḥ,</hi> paṇḍitavaruṇi; <hi rend="bold">akṣayaḥ,</hi> parama karuṇādī guṇaśālitvayen_ <lb n="31"/>parahita sukhasampādanayehilā kṣayak_ næt_tāvū hevat_ virāmayak_ <lb n="32"/>næt_tāvū nohot_ saṃsārayen_ sundarasthānayaṭa giya bava hetu<lb n="33"/>koṭageṇa ajarāmara heyin_ kṣayak_ næt_tāvū; saḥ, ē sarvajña <pb n="2" facs="23"/><lb n="1"/>tema; <hi rend="bold">śriye ca,</hi> trivargasampattiya piṇisada; <hi rend="bold">amṛtāya ca,</hi> nivan_ <lb n="2"/>piṇisada; <hi rend="bold">sevyatām,</hi> topa visin_ sevunā læbēvā.
+  </p>
+  <p>
+<lb n="3"/>me ślokaya sarvajña sāgaratvayen_ rūpaṇaya heyin_ sarvajña <lb n="4"/>yataṭa hā sāgarayaṭa śleṣayi; mehi samudrayāgē agādhatva nam_ <lb n="5"/>pātāla talaya nodæk_tahæki bavayi; anaṣavū guṇayō nam_ <lb n="6"/>ratnākaratvādīhuya; akṣayatva nam_ paripūrṇa bavayi; śrī nam_ śrīdeva<lb n="7"/>tāya; amṛta nam_ amāyayi datayutu. <hi rend="bold">“yasya jñāna dayāsindhoḥ”</hi> <lb n="8"/>yanādiyen_ iṣṭadevatāśrīrvāda dæk_vūhu. <hi rend="bold">“śriye ca amṛtāya ca”</hi> <lb n="9"/>yan_nen_ sakalajñānapravṛttiya phalapramāṇa heyin_ pravṛttiphala <lb n="10"/>dæk_vūhu.
+  </p>
+  <p>
+<lb n="11"/>me ślokayehi śleṣayen_ taman_ karaṇa śāstrayāgēda <lb n="12"/>svarūpa sīha hē mesē datayutu: <hi rend="bold">jñānadayā,</hi> kavitvavaktṛtvādiyehi <lb n="13"/>hō aṣṭādaśa vidyāsthānayehi jñānadāna sampattiya hetukoṭa<lb n="14"/>geṇa; <hi rend="bold">sindhoḥ,</hi> sāgaraya vænivū; <hi rend="bold">agādhasya,</hi> anantaroktavū guṇa<lb n="15"/>yōgaya hetukoṭageṇa patul_ nodæk_ka hæk_kāvū; <hi rend="bold">yasya,</hi> yam_ <lb n="16"/>śāstrayak_hugē; <hi rend="bold">guṇāḥ,</hi> laghutva viṣpaṣṭatvādi guṇayō; <hi rend="bold">anaghāḥ,</hi> <lb n="17"/>śubhahetuhuda; <hi rend="bold">he dhīrāḥ,</hi> paṇḍitavaruṇi; <hi rend="bold">akṣayaḥ,</hi> sampūrṇavū; <hi rend="bold">saḥ,</hi> <lb n="18"/>ē jñānadayāsindhu temē hevat_ mē nāmaliṅgānuśāsanaya tema. <lb n="19"/><hi rend="bold">śriye ca,</hi> trivargasampattiya piṇisada nohot_ vāṅmaya śil_pa dænīma <lb n="20"/>lakṣaṇakoṭa æti svārtthasapettiya taddhetukatrivargahetuvū parārttha<lb n="21"/>sampattīya yana mē svārttha sampat_ parārttha sampat_ deka piṇisa da; <lb n="22"/><hi rend="bold">amṛtāya ca,</hi> ē svārtthasampattiyenudu puṇya jñāna sambhārayen_ <lb n="23"/>yatnayen_ siddhavan_nāvū mokṣaya piṇisada; <hi rend="bold">sevyatām,</hi> śruti<lb n="24"/>cintā vyākhyānādi lakṣaṇavū sēvāva karaṇu læbēvā.
+  </p>
+  <p>
+<lb n="25"/>mē śāstrapakṣayehi ‘dānatadāḥ’ yana vākyayehi ḍudāñ_  dāne <lb n="26"/>yana dhātuhu keren_ (<hi rend="bold">sampadādibhyaḥ kvip_ ca</hi>) yi kvip_ pratyaya kaḷa <lb n="27"/>kal_hi dā kiyā dvē. “jñānasya dāḥ tasyā ī lakṣmī jñānade” yi vākya<lb n="28"/>geṇa ṣaṣṭhīsamāsaya koṭa ‘jñānade’ śabdaya siddhakal_hi ohu keren_ <lb n="29"/>tṛtīyā kaḷa kala ‘jñānadayā’ yi kiyā rūpaya dvēyayi datayutuyi.
+  </p>
+</body></text></TEI>
