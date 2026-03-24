@@ -4,3 +4,6 @@
 [submodule "docs/lib"]
 	path = docs/lib
 	url = https://github.com/TST-Project/lib
+[submodule "public/lib"]
+	path = public/lib
+	url = https://github.com/TST-Project/lib.git
