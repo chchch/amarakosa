@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Amaraṭīkā</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Institut français de Pondichéry</orgName>
+                  </repository>
+                  <idno type="shelfmark">RE 41538a</idno>
+                  <idno type="alternate"/>
+               <idno type="URI">https://archive.org/details/re-41538a</idno><idno type="URI">https://digitalcollections.ifpindia.org/s/manuscripts/item/396721</idno></msIdentifier>
+               <msContents class="#STM">
+                  <summary>A Manipravalam commentary on the <title xml:lang="sa">Amarakoṣa</title>.</summary>
+                  
+               <msItem xml:id="RE41538a" defective="false"><title xml:lang="sa">Amaraṭīkā</title><textLang mainLang="san" otherLangs="tam"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="palm-leaf palmyra">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="253"/>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="sole" script="grantha tamil" medium="black incised soot"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   <graphic url="https://iiif.archive.org/iiif/re-41538a/manifest.json" facs="7"/></facsimile>
+<text corresp="#RE41538a" xml:lang="sa"><body>
+  <pb n="2v" facs="7"/>
+  <p><lb n="4"/>amarasihmaṉeṉṟu peyarai yuṭaiya mahāmahopādhyā<lb n="5"/>yarāṉavar sakalanighaṇṭunaḷaiyum viśadatamāka aṟintu koṇṭu atē prakāraṃ aṟiya vē<g rend="below=base">ṇum</g> yeṉkiṟa vapekṣā<lb n="6"/>rūpamāṉa adhikārasaṃpattiyai yuṭaiya sakalajanaṃgaḷukkuṃ anekaparyyāyanāmaṃgaḷai liṃgaviśeṣanirṇṇaya<lb n="7"/>tuṭaṉ sulabhamāka aṟivikka vēṇumeṉṟum apekṣaiyai yuṭaiyarāy koṇṭu tammālē ceyyappaṭap pōkiṟa nāmaliṃgānuśā<lb n="8"/>sanameṉkiṟa nighaṇṭuviṉuṭaiya avighnaparisamāptyartthamākavum · addhyetākkaḷeṉṉa addhyāpayitākkaḷeṉṉa · grandhameṉṉa ivai muta<pb n="3r" facs="7"/><lb n="1"/>lāṉatukaḷuṭaiya uttarottaraviśeṣasamṛddhyartthamākavum samastajanaṅkaḷukkum uddeśyamāyum iṣṭamāyum yirukki<lb n="2"/>ṟa sakalaphalapradaparamātmanamaskārattai tām anuṣṭitu parāḷumanuṣṭhikku kaikkāka paropadeśaṃ paṇṇukiṟār · yasyeti <lb n="3"/>ślokattālē |
+  </p>
+  <p>mūlaṃ |</p>
+  <lg>
+    <l>yasya jñānadayāsindho<unclear>ra</unclear>gādhasyānaghā guṇāḥ |</l>
+    <l>sevyatāmakṣayo dhīrāssa śriyai <lb n="4"/>cāmṛtāya ca || 1 ||</l>
+  </lg>
+  <p>
+    ṭīkā | jñānadayāsindhoḥ samastartthaviṣayakamāṉa jñānaṃ mutalākiya vapekṣitārtthaṃkaḷeṉṉa <lb n="5"/>avaiṟṟai upakarikkukai<unclear>kka</unclear> vēṇṭiya dayai yeṉṉa · ivaiṟṟukku adhāranāyiruppāṉāyi · agādhasya kīḻcolliyavai <lb n="6"/>naṉakkuṇṭāyik kūṭāta svabhāvamākiṟa gāṃbhīryyattaiyuṭaiyaṉāyirukkiṟa · yasya · lokavedavedāntatadupa<lb n="7"/>brahmaņādikaḷilē guṇavigrahavibhūtyaiśvaryyādikaḷeṉṉa · parabrahma · paramātma · paramapuruṣa · puruṣottama · nārāyaṇādisāmānya<lb n="8"/>viśeṣaśabdaṃkaḷeṉṉa · ivaittālē prasiddhaṉāyiruntuḷḷa · yātoru śrīyaḥ patiyiṉuṭaiya guṇāḥ āśrayaṇopayōgikaḷāyum <pb n="3v" facs="8"/><lb n="1"/>āśrita kāryyopayōgikaḷāyum anubhavaparikaraṃkaḷāyumiruttuḷḷa vāsalyādyasaṃkhyeyakalyāṇaguṇaṅkaḷāṉatukaḷ <lb n="2"/>anaghāḥ āśritaviṣayaṃkaḷile nirdduṣṭaṃkaḷāka prakāśikkiṟatukaḷō aṉṟikkē · guṇāḥ addhyetākkaḷuṭaiya prakṛtagrandhārtthajñānapra<lb n="3"/>dānopayogikaḷāṉa · niravadhikaniratiśayadivyakalyāṇaguṇaṅkaḷāṉatukaḷ anaghāḥ · āśritaviṣayatilē tēṉumo<lb n="4"/>ṉṟai yapekṣikkai yākiṟa · aghamuṇṭu doṣaṃ atillātatukaḷāka prakāśiyyāṉirukkiṟatukaḷō - akṣayaḥ jñānapradatva<lb n="5"/>millāmai yākiṟa kṣayamuṇṭu nāśaṃ atilātavanavaṉāyirukkiṟa · saḥ · kīḻcolliya paṭi prasiddhaṉāyikukkiṟ anta śriyaḥ pati<lb n="6"/> yāṉavaṉ · he dhīrāḥ · prakṛtagrandhārtthajñānaṃ mutalākiya saṃpadādikaḷai koṭuppaṉāveṉkiṟa saṃdehamillāmal kī<lb n="7"/>ḻcolliya guṇātiśayaṅkaḷaiyuṭaiyaṉākaiyāl mēl colla pōkiṟa saṃpadādikaḷaikkoṭuppaṉeṉkiṟa nampikkaiyākiṟa dhairyyattaiyu<lb n="8"/>ṭaiyavar_kaḷē · śriyai ca · prakṛtagrandhārtthajñānapūrvakavedādisakalagrandhārtthajñānattiṉ poruṭṭum · amṛtāya ca · anta jñānaviro<pb n="4r" facs="8"/><lb n="1"/>dhiyāna vajñānamākiṟa mṛtiyuṇṭu · maraņaṃ · atillāmaiyākiṟa avāntarapuruṣārtthapūrvakaniratiśayānandarūpamahāpuru<lb n="2"/>ṣārtthattiṉ poruṭṭum · sevyatāṃ · uṅkaḷālē ābhimukhyamātṛ āsūcakamāṉa manovākkāyaṅkaḷilētēṉum oru karaņattā<lb n="3"/>lē āśrayikkattakkavaṉ · aṉṟikkē taṅkaḷuṭaiya vadhikārapauṣkalyasūcakamāṉa trividhakaraņaṅkaḷālum āśra<lb n="4"/>yikkattakkavaṉ · āka vittāl nāmaliṃgānuśāsanameṉkiṟa 	prakṛtagrandhāddhyetākkaḷuṭaiya jñānasamṛddhyādika<lb n="5"/>ḷeṉṉa · tatprayuktamāṉa vaihīkāmuṣmikaniratiśayānandarūpaparamapuruṣārtthameṉṉa · ivaittiṉuṭaya pra<lb n="6"/>dānādyupayuktaṅkaḷāṉa niravadhikajñānadayākṣāntyādikaḷāl puṣkalaṉāyirūppaṉeṉṟum cetanaprayatna<lb n="7"/>ttāl <del>sujñeyasvarūpaṉā</del>durjñeyasvarūpaṉāyirunta pōtilum svaprayatnattāl sujñeyasvarūpaṉāyirūppaṉeṉṟum vakṣyamāṇa<lb n="8"/>samāśrayaṇādyupayuktamāṉa nikhilakalyāņaguṇākaraṉeṉṟum agguṇaṅkaḷukku virodhikaḷāṉa heyaguṇapratibhaṭaṉeṉṟum <pb n="4v" facs="9"/><lb n="1"/><unclear>co</unclear>lili nityanāyi prasiddhaṉāṉa anta śrīmannārāyaņan apekṣitasakalapuruṣārtthattiṉ poruṭṭu trividhakaraņaṅkaḷālum <lb n="2"/>āśrayaņiyyaṉeṉṟu colli talaikkaṭṭittu |
+  </p>
+</body></text></TEI>

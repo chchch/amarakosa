@@ -88,5 +88,5 @@
    <facsimile>
    <graphic url="https://iiif.archive.org/iiif/6221_20250816/manifest.json" facs="4"/></facsimile>
 <text corresp="#Āśā-6221" xml:lang="sa"><body>
-  <p><pb n="1v" facs="4"/><lb n="1"/>1 gvamhaṃ yasya me śvarasa ātmāsa jñāna noṃ dayā noṃ samudra rthya pūrṇṇa yāṅa coṅa avināśī jasyaṃ ihatraya sukha paratraya mokṣa yeva jñāni</p>
+    <p><pb n="1v" facs="4"/><lb n="1"/>1 gvamhaṃ palameśvarasa ātmāsa jñāna noṃ dayā noṃ samudra thyā pūrṇṇa yāṅa coṅa avināśī jusyaṃ ihatraya sukha paratraya mokṣa yeva jñā<del><gap reason="illegible" quantity="1" unit="akṣara"/></del>ni</p>
 </body></text></TEI>

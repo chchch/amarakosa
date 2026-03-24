@@ -7,3 +7,6 @@
 [submodule "public/lib"]
 	path = public/lib
 	url = https://github.com/TST-Project/lib.git
+[submodule "public/saktumiva"]
+	path = public/saktumiva
+	url = https://github.com/chchch/saktumiva.git

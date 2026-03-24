@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tei-to-html.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <script src="../lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="sa">Kavikāmadhenu</title></title>
+            
+         <editor><persName>Charles Li</persName><orgName>Universität Hamburg</orgName></editor></titleStmt>
+         <publicationStmt>
+            <publisher>TST Project</publisher>
+            <date>2026</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>
+                     <orgName>Oriental Research Institute, Baroda</orgName>
+                  </repository>
+                  <idno type="shelfmark">Acc. No. 1213</idno>
+                  <idno type="alternate"/>
+               </msIdentifier>
+               <msContents class="#STM">
+                  <summary>Although the first folio has been lost, and the name of the text is not given anywhere, the text matches that of the extant published portions of the <title xml:lang="sa">Kavikāmadhenu</title>.</summary>
+                  
+               <msItem xml:id="Kk" defective="false"><title xml:lang="sa">Kavikāmadhenu</title><author xml:lang="sa">Subhūticandra</author><textLang mainLang="san"/></msItem></msContents>
+               <physDesc>
+                  
+                  
+                  
+                  
+                  
+               <objectDesc form="pothi" rend="manuscript">
+                     <supportDesc material="paper handmade">
+                        
+                        
+                        
+                        
+                        
+                     <support>
+                           
+                        </support><extent>
+                           <measure unit="folio" quantity="182">2-15, 21, 23-126, 129-191</measure>
+                           <dimensions type="object" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="leaf" unit="mm">
+                              
+                              
+                           </dimensions>
+                           <dimensions type="written" unit="mm">
+                              
+                              
+                           </dimensions>
+                        </extent><foliation>Devanāgarī numerals, left &amp; right margins, verso.</foliation></supportDesc>
+                     <layoutDesc>
+                        
+                     </layoutDesc>
+                  </objectDesc><handDesc><handNote scope="major" script="devanagari" medium="ink black"/></handDesc><additions>
+                  </additions><bindingDesc>
+                     <binding>
+                        
+                        <decoNote type="stringhole">
+                           <measure unit="stringhole"/>
+                        </decoNote>
+                    </binding>
+                  </bindingDesc></physDesc>
+               <history>
+                  
+                  
+                  
+               <origin>
+                     <origDate calendar="gregorian"/>
+                     
+                  </origin><acquisition><p>The title card indicates that it was part of the Centra Library in Baroda, in the Sanskrit section.</p></acquisition></history>
+               <additional>
+                  <listBibl>
+                     
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>IAST transliteration.</p></encodingDesc>
+      
+   <revisionDesc/></teiHeader>
+   <facsimile>
+   </facsimile>
+  <text corresp="#Kk" xml:lang="sa">
+    <body>
+      <p><pb n="2r" facs="2"/><lb n="1"/>dhur ity ukte hi kṛta iti pratīyate | tadapekṣaḥ padayoḥ sambandhaḥ ṣaṣṭhīsamāso vā | jñanadayayoḥ siṃdhur iva siṃdhur vipulādhā<lb n="2"/>raḥ agādhasyānyair anadhigatajñānadayāpāratvād aparicchedyagāṃbhīryasya | tasya hi bhagavataḥ sakalajñeyamaṃḍalavyāpino jñānasya karuṇā<lb n="3"/>yāś ca duḥkhārṇavanimagnam anantam atrāṇaṃ jagad abhivyāpyocchalitāyāḥ kaḥ paryantaṃ gantum īśaḥ | evaṃbhūtasya yasya anaghā rāgādidoṣai rahi<lb n="4"/>tāḥ | guṇā maitrīkṣamopagamādayaḥ | guṇa āmaṃtraṇa ity adanto dhātuś curādiśeṣaḥ | sa hi gaṇo 'parisamāpto vṛdaka<lb n="5"/>raṇāt | guṇyante 'bhyasyante śreyārghibhir ity e<del>va</del>r ac | he dhīrāḥ <del><gap reason="illegible" quantity="1" unit="akṣara"/></del> sevyatāṃ bhavadbhir iti gamyate |</p>
+      <lg>
+         <l>hitaś ca yaḥ syān na <lb n="6"/>hitāhite paṭuḥ</l>
+         <l>paṭuś ca yaḥ syān na hito na sa kṣamaḥ</l>
+         <l>viśeṣato taḥ paramarthaḥ siddhaye</l>
+         <l>dayādhiyoḥ pāraga eva <lb n="7"/>mṛgyate |</l>
+      </lg>
+      <p>paramakaruṇādiguṇacālitvād eva parahitasukhamkhasaṃpādaneṣu nāsti kṣayo virāmo 'syety akṣayaḥ <lb n="8"/>saṃsārād vā suṣṭhugatatvenājarāmaratvād akṣayo 'napāyaḥ | samudrasyāgādhatvam atalasparśatā | anaghaguṇatvaṃ ratnākaratvādi <lb n="9"/>hi | akṣayatvaṃ paripūrṇatā | phalapravaṇā ca sakalajanapravṛttiphalam upadarśayati | śriye cāmṛtāya ceti pākāya <lb n="10"/>vrajativat tādarthye caturthī | cakārāv anyonyasamuccaye | prasiddhaḥ kila siṃdhur dhairyaśālibhiḥ suraiḥ śriyai lakṣmyai amṛ<pb n="2v" facs="3"/><lb n="1"/>tāya | pīyūṣāya ca sevitaḥ | jñānadayāsiṃ<subst><del>dho</del><add place="inline">dhu</add></subst>ś ca bhavasukheṣubhir vicakṣaṇaiḥ śriye trivarggasampatyai mumukṣubhiś cāmṛtāya <lb n="2"/>mokṣāya sevyatām iti | a<del>va</del>tra ca jñānadayārṇatvādibhiḥ sa eva sarvvajñaḥ sarvvasatveṣu karuṇā para<del>mā</del>mavatsalasvarbhāvo bhagavā<lb n="3"/>n sugato vyaktam upalakṣyata iti | prasādānāmāyaṃ kāvyaguṉaḥ | tad uktaṃ sarasvatīkaṇṭhābharaṇakāvyālaṃkāre | yat tu prākaṭyam artha<lb n="4"/>sya prasādaḥ so bhidhīyate || yathā</p>
+      <lg>
+          <l>ayam udayati mudrābhaṃjanaḥ padminīnām udayati girivanālībālamaṃ<lb n="5"/>dārapuṣpaḥ</l>
+          <l>virahavidhurakokadvandabaṃdhur vibhindan kupitakapikapolakroḍatāmras tamāṃsi |</l>
+      </lg>
+      <p>atra tamo<lb n="6"/>vidhamane kokaśokaharaṇādau cānukto pi sūryalakṣaṇo rthaḥ prakaṭam upalakṣata iti || śleṣe<sic>na</sic> śāstre pi <unclear>ślo</unclear><lb n="7"/>ko yaṃ || tatra <del>vi</del>kavitvavaktṛtvādau samastavidyāsthāneṣu ca | jñānasya dānan dāḥ tasyā ī lakṣmīs tayā jñāna<lb n="8"/>dānasampadāhetubhūtayā siṃdhur iva siṃdhuḥ śāstraṃ | heturūpakam alaṃkāro yaṃ | yathā gāṃbhīryeṇa samudro sīti | tasyāgādhatvaṃ <lb n="9"/>yathoktaguṇavatta<del>dā</del>yā | atalasparśatvaṃ | duḥkhainovyasaneṣv agham iti | abhidhānād anaghaguṇatvaṃ | sukhahetulaghutvavispa<lb n="10"/>ṣṭatvādi sevā śrutacintāvyākhyānādiḥ | akṣaya<del>tvā</del>tvaṃ saṃpūrṇatā sarvvanāmaśabdaiḥ prakrāntasya liṃgam ādīyate prakāśyamānasya vā | <pb n="3r" facs="4"/><lb n="1"/>tad yathā | karmmaṇā yad abhipreti saṃpradānaṃ | aṇau yat karmma ṇau ce<del>ktaṃ</del>t sa kartā | tad atra kāmacārāc chrutatvāc ca prakāntasyaiva siṃdhuśabdasya liṃ<lb n="2"/>gena sa iti nirddeśo na nāmaliṃgānunāsanaśabdasya | śrīs trivarggasya saṃpattiḥ | tad uktaṃ vyāḍinā lakṣmīsarasvatīdhītrīvargga<lb n="3"/>saṃpadvibhūtisobhāsu | upakaraṇaveśaracanāvidhāsu ca śrīr iti prasthiteti | athavā yā vanmayasarvvajñatvalakṣaṇā svārtha<lb n="4"/>saṃpat | yā ca taddhetukā trivarggahetuḥ parārthasampat | tadubhayī śrīḥ | svaparārthasampadā ca puṇyajñānasaṃbhārād a<lb n="5"/>yatvāyāto mokṣo mṛtam iti ||</p>
+</body></text></TEI>

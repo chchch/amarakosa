@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="DEd">
+   <script src="../lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><title xml:lang="bo">'chi ba med pa'i mdzod kyi rgya cher 'grel pa 'dod 'jo'i ba mo</title></title>
+            <title type="sub">Edited by Lata Deokar.</title>
+        </titleStmt>
+         <sourceDesc>
+            <msDesc>
+               <msContents>
+                  <summary/>
+               </msContents>
+            </msDesc>
+         <listWit>
+<witness xml:id="Kk-D" source="Kk-D.xml">
+<abbr>Z</abbr>
+            <expan>Translation of <persName xml:lang="bo">zhwa lu lo tsā ba chos skyong bzang po</persName> in the Derge edition</expan>
+</witness>
+<witness xml:id="Kk-ST" source="Kk-ST.xml">
+<abbr>S</abbr>
+            <expan>Translation of <persName xml:lang="bo">si tu pan chen</persName>, xylograph preserved in the Mongolian National Library.</expan>
+</witness>
+<witness xml:id="DEd" source="Kk-ST-Deokar.xml">
+<abbr>DEd</abbr>
+            <expan>Translation of <persName xml:lang="bo">si tu pan chen</persName>, edited by Lata Deokar, 2013.</expan>
+</witness></listWit></sourceDesc>
+      </fileDesc>
+      <encodingDesc><p>Extended Wylie transliteration, using IAST where unambiguous.</p></encodingDesc>
+      
+    <revisionDesc/>
+  </teiHeader>
+  <text xml:lang="bo-Latn-t-bo-Tibt">
+    <body>
+<p xml:id="Kk-p1">
+de nas gzhan la phan pa rjes su ston pas sdig pa zhi ba dang bsod nams phun sum tshogs pa bsgrub pa'i phyir/ kun du bzang po bcom ldan 'das la mchod par brjod pa ni/ gang gi zhes pa la sogs pa ste/ yul gyi dngos po mtha' dag yongs su mkhyen pa ni mkhyen pa'o// sdug bsngal las yang dag par 'don par bzhed pa ni brtse ba'o/ de dag gis rgya mtsho dang 'dra bas rgya mtsho ste/ mkhyen pa dang brtse ba'i rgya mtsho de ni sangs rgyas bcom ldan 'das so// 'dir rgya mtsho'i sgra 'di ni gting med pa la sogs pa'i yon tan mtshungs pa'i phyir btags pa'o// de'i gting med pa nyid la sogs pa'ang mkhyen pa dang brtse bas byas pa'o zhes par byed pa can la mang por ro shes pa'i bsdu ba'o// bya ba ni ma 'ongs pa'i don nyid gyi phyir dgos pa med do// mkhyen pa dang brtse ba dag gis rgya mtsho zhes brjod pas na des byas so zhes shes par bya ste de la ltos pa'i tshig dang 'brel pas yang na drug pa'i bsdu ba'o// mkhyen pa dang brtse ba dag gis rgya mtsho lta bu ste 'og gzhi'i rgya mtsho chen po'o// gting med pa ni gzhan gyis mi rtogs pa ste mkhyen brtse pha mtha' yas pa'i phyir zab cing yongs su gcad du med pa'o// bcom ldan 'das gyi mkhen pas shes bya'i dkyil 'khor thams cad la khyab cing brtse bas kyang sdug bsngal gyi rgya mtshor bying ba'i 'gro ba skyabs med pa mtha' yas pa la mngon par khyab cing rgyas pa'i phyir su zhig gis de'i mthar thug par bgrod par nus zhes dgongs pa'o// te ltar gyur pa gang sdig med de 'dod chags la sogs pa'i nyes pa spangs pa'o// yon tan ni byams pa dang bzod pa dang nye par zhi ba la sogs pa ste/ gu ṇa bod pa la'o// zhes pa ata mtha' can gyi byings tsur sogs gyi ltag ma ste/ de ni tshogs yongs su ma rdzogs pa la brita byed pa'i phyir ro// legs pa don du gnyer ba rnams kyis 'bod pa ste goms par byed pa'i phyir i las atsa'o// kyai blo ldan khyed cag rnams gyis de bsten par byos shig ces rtogs par bya'o//
+      </p>
+      <lg xml:id="Kk-p2">
+        <l>mi phan par yang phan gyur gang de mkhas pa ste//</l>
+        <l>mkhas pa gang zhig mi phan pa la bzod bcas min//</l>
+        <l>khyad par de slad don gyi mchog ni bsgrub pa'i phyir//</l>
+        <l>brtse dang blo gros pha rol phyin nyid 'tshol bar byed//</l>
+      </lg>
+      <p>
+mchog gi snying rje la sogs pa yon tan rgya che ba nyid gyi phyir gzhan gyi phan bde yang dag par sgrub pa la ngal zhing gtugs pa med pas na mi zad pa'o// yang na 'khor ba las legs par brgal ba nyid kyis rga ba dang 'chi ba med pa'i phyir mi zad pa ste bri ba med pa'o/ rgya mtsho'i gting med pa ni mthil la mi rig pa nyid dang/ skyon med pa'i yon tan ni rin po che'i byung gnas la sogs pa dang/ mi zad pa ni yongs su gang ba nyid do// skye bo'i gtam mtha' dag ni 'bras bu la gzhol ba yin pas gtam gyi 'bras bu nye bar son pa ni dpal dang bdud rtsi'i ched du'ang zhes pa ste 'tshed pa'i phyir du 'gro ba lta bu de'i don nyid la bzhi pa'o// dang dang yang gi don can tsa yig dag ni phan tshun kun sdud pa'o// rgya mtsho ni brtan zhing yangs pa'o zhes lha rnams la rab tu grags so// de'i dpal ni dpal mo dang 'chi med ni bdud rtsi ste de'i ched du bsten pa'o// mkhyen pa dang brtse ba'i rgya mtsho ni srid pa'i bde ba 'dod pa'i mkhas pa rnams gyis dpal te sde tshan gsum gyi phun sum tshogs pa'i phyir dang thar pa 'dod pa rnams gyis 'chi med de thar pa'i ched du bsten par gyis shig ces pa'o// 'dir mkhyen pa dang brtse ba'i rgya mtsho la sogs pa rnams gyis thams cad mkhyen pa sems can thams cad la rgyu med par mchog tu mnyen gshin pa'i rang bzhin can bcom ldan 'das bde bar gshegs pa de nyid gsal zhing nye bar mtshon pas na 'di ni rab dngas zhes pa snyan dag gi yon tan no// de skad du/ dbyangs can gyi mgul rgyan shes bya ba'i snyan ngag gi rgyan las/ gang gi don ni rab gsal ba/ de ni rab tu dang bar brjod/ dper na/
+      </p>
+      <lg>
+        <l>'di shar gyur pas pa d+ma can dang shar ri'i nags tshal gyi//</l>
+        <l>/ma n+dā ra yi me tog gzhon nu'i phreng ba rgya grol shing//</l>
+        <l>'gal ba rnams bral ngur pa gnyis gnyis gnyer gyur khros pa yi//</l>
+        <l>spre'u 'i 'gram pa khros pas dmar ba smag las rnam par 'byed//</l>
+      </lg>
+      <p>
+'dir mun pa dang bral bas ngur pa'i mya ngan bsal ba la sogs pas ma brjod kyang nyi ma'i mtshan nyid kyi don gsal bar mtshon pa'o zhes so//
+      </p>
+      <p>
+tshigs su bcad pa 'di bstan bcos la'ang sbyar te de la smra ba po snyan ngag mkhan la sogs pa la'am/ yang na rig pa'i gnas mtha' dag la shes pa'i sbyin pa sbyin te de'i i zhes pa ni dpal te phun sum tshogs pa'o// shes pa'i sbyin pa phun sum tshogs pa rgyur gyur pa des rgya mtsho dang mtshungs pas bstan bcos ni rgya mtsho ste 'di ni rgyu'i gzugs can gyi rgyan no// dper na/ zab pas rgya mtsho zhes pa lta bu'o/ de'i gting med pa nyid ni ji ltar bshad pa'i yon tan dang ldan pa des mtshungs pa med pa nyid do//
+      </p>
+      <p>
+sdug bsngal dang sdig pa dang phongs pa rnams la a ghaṃ zhes mngon par brjod pas skyon med pa'i yon tan ni bde ba'i rgyur gzhung nyung ba nyid dang gsal ba la sogs pa'o// bsten pa ni nyan pa dang bsam pa dang 'chad pa la sogs pa'o// mi zad pa ni yang dag par rdzogs pa nyid de/
+      </p>
+      <p>
+ming gi sgra thams cad gyis gnas skabs kyi'am rab tu gsal bar bya ba'i rtags kun tu len par byed do// 'di ltar las gang yin pa de yang dag par rab tu sbyin par dgongs pa ste/ aṇ dag gal te las yin pa gang de byed pa po'o// de 'dir 'dod pa na spyod pa'i phyir dang/ thos pa'i phyir yang gnas skabs nyid kyi rgya mtsho'i sgra'i rtags kyis de zhes nges par bstan pa ste ming dang rtags rjes su bstan pa'i sgra ni ma yin no//
+      </p>
+      <p>
+dpal ni sde tshan gsum gyi phun sum tshogs pa ste/ ji skad du/ slob dpon byā ḍis/
+      </p>
+      <lg>
+        <l>dpal mo dbyangs can blo dang sde gsum gyi//</l>
+        <l>phun sum tshogs dang 'byor ba mdzes pa dang//</l>
+        <l>'tshogs chas 'jigs med tshal dang 'phags pa dang//</l>
+        <l>bdud rtsi rnams la dpal zhes rab tu grags//</l>
+      </lg>
+      <p>
+zhes so// yang na/ gang zhig ngag gi rang bzhin thams cad shes pa'i mtshan nyid ni rang don phun sum tshogs pa dang/ gang zhig de'i rgyu can sde tshan gsum gyi rgyu ni gzhan gyi don phun sum tshogs pa ste de gnyis ni dpal lo// rang dang gzhan gyi don phun sum tshegs pa dang bsod nams dang ye shes gyi tshogs la 'bad pas thar pa thob pa ni bdud rtsi'o zhes so//
+      </p>
+    </body>
+  </text>
+<standOff type="apparatus" corresp="#Kk-p1" source="alignments/Kk-p1.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp>
+<!--Warnings
+Kk-p1: DEd doesn't match alignment.
+Kk-p1: Kk-D doesn't match alignment.
+--><listApp>
+  <app loc="37,40">
+    <lem wit="#Kk-ST">zhi</lem>
+    <rdg wit="#Kk-D">rab tu zhi</rdg>
+  </app>
+  <app loc="69,75">
+    <lem wit="#Kk-ST">bsgrub</lem>
+    <rdg wit="#Kk-D">bsag</rdg>
+  </app>
+  <app loc="85,88">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>kun</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        kun 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="88,90">
+    <lem wit="#Kk-ST">du</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="90,95">
+    <lem wit="#Kk-ST">bzang</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="95,97">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>po</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        po
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="109,111">
+    <lem wit="#Kk-ST">la</lem>
+    <rdg wit="#Kk-D"> kun tu bzang po  la</rdg>
+  </app>
+  <app loc="124,126">
+    <lem wit="#Kk-ST">pa</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="153,156">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>yul</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        yul 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      mkhyen pa ni yul 
+    </rdg>
+  </app>
+  <app loc="181,191">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>mkhyen pa ni</lem>
+      <rdg type="minor" wit="#Kk-ST">mkhyen pa ni</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="203,207">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>sdug</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        sdug 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">brtse ba  ni sdug </rdg>
+  </app>
+  <app loc="238,251">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa ni brtse ba'o</lem>
+      <rdg type="minor" wit="#Kk-ST">pa ni brtse ba'o</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa'o/</rdg>
+  </app>
+  <app loc="252,257">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>de dag</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        de dag 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      de g
+    </rdg>
+  </app>
+  <app loc="257,260">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>gis</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        gis
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">nyis</rdg>
+  </app>
+  <app loc="260,264">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>rgya</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        rgya 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"> ni rgya </rdg>
+  </app>
+  <app loc="293,299">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>mkhyen</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        mkhyen 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">sangs rgyas  bcom ldan 'das  de'i mkhyen </rdg>
+  </app>
+  <app loc="310,314">
+    <lem wit="#Kk-ST">ba'i</lem>
+    <rdg wit="#Kk-D">ba ni</rdg>
+  </app>
+  <app loc="318,351">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>mtsho de ni sangs rgyas bcom ldan 'das so</lem>
+      <rdg type="minor" wit="#Kk-ST"><lb n="5"/>mtsho de ni sangs rgyas bcom ldan 'das so</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">mtsho'o/ /</rdg>
+  </app>
+  <app loc="368,377">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>sgra 'di ni</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        sgra
+        'di ni
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">sgras</rdg>
+  </app>
+  <app loc="411,415">
+    <lem wit="#Kk-ST">pa'i</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="415,420">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>phyir</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        phyir
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="420,425">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>btags</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        btags 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="425,429">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa'o</lem>
+      <rdg type="minor" wit="#Kk-ST">pa'o</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="431,435">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>de'i</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        de'i
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="435,440">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>gting</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        gting 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="440,443">
+    <lem wit="#Kk-ST">med</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="445,461">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>nyid la sogs pa'ang</lem>
+      <rdg type="minor" wit="#Kk-ST">nyid la sogs pa'ang</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">nye bar 'jal ba'o/ /</rdg>
+  </app>
+  <app loc="485,489">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa'o</lem>
+      <rdg type="minor" wit="#Kk-ST">pa'o</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa  de  ni gting med pa la sogs pa  can</rdg>
+  </app>
+  <app loc="493,496">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>par</lem>
+      <rdg type="minor" wit="#Kk-ST">par</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa  ste/</rdg>
+  </app>
+  <app loc="502,505">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>can</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        <pb n="2v" facs="246" type="folio"/><lb n="1"/>can
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">po</rdg>
+  </app>
+  <app loc="511,516">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>por ro</lem>
+      <rdg type="minor" wit="#Kk-ST">por ro</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">po'o</rdg>
+  </app>
+  <app loc="516,520">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>shes</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        shes 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      zhes 
+    </rdg>
+  </app>
+  <app loc="552,567">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>don nyid gyi phyir</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        don nyid gyi phyir
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">don can  yin pa'i phyir</rdg>
+  </app>
+  <app loc="567,571">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>dgos</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        dgos 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      'dir 
+      dgos 
+    </rdg>
+  </app>
+  <app loc="602,605">
+    <lem wit="#Kk-ST">gis</lem>
+    <rdg wit="#Kk-D"> ni</rdg>
+  </app>
+  <app loc="609,614">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>mtsho</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        mtsho
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">mtsho'o</rdg>
+  </app>
+  <app loc="618,628">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>brjod pas na</lem>
+      <rdg type="minor" wit="#Kk-ST">brjod pas na</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">bshad pa  ni</rdg>
+  </app>
+  <app loc="628,651">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>des byas so zhes shes par bya</lem>
+      <rdg type="minor" wit="#Kk-ST">des byas so zhes shes par bya</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      byed pa po 
+      sgrub pa 
+    </rdg>
+  </app>
+  <app loc="654,666">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>de la ltos pa'i</lem>
+      <rdg type="minor" wit="#Kk-ST">de la ltos pa'i</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">de'i</rdg>
+  </app>
+  <app loc="666,683">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>tshig dang 'brel pas</lem>
+      <rdg type="minor" wit="#Kk-ST">tshig dang 'brel pas</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      tshig mi mngon pa'am 
+    </rdg>
+  </app>
+  <app loc="693,697">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa'i</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        pa'i
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa  'brel pa'i</rdg>
+  </app>
+  <app loc="729,732">
+    <lem wit="#Kk-ST">gis</lem>
+    <rdg wit="#Kk-D"> ni</rdg>
+  </app>
+  <app loc="744,749">
+    <lem wit="#Kk-ST">bu ste</lem>
+    <rdg wit="#Kk-D">bur gyur pa ste/</rdg>
+  </app>
+  <app loc="749,758">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>'og gzhi'i</lem>
+      <rdg type="minor" wit="#Kk-ST">'og gzhi'i</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">rgya mtsho  ni gzhi yangs pa'o/</rdg>
+  </app>
+  <app loc="758,775">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>rgya mtsho chen po'o</lem>
+      <rdg type="minor" wit="#Kk-ST">rgya mtsho chen po'o</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">rgya mtsho  ni brtan  zhing yangs pa'o zhes  lha  rnams la rab tu grags  so/</rdg>
+  </app>
+  <app loc="810,816">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>mkhyen</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        mkhyen 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      gang gi 
+      mkhyen pa dang 
+    </rdg>
+  </app>
+  <app loc="816,841">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>brtse pha mtha' yas pa'i phyir</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        brtse
+        pha mtha' yas pa'i phyir
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">brtse ba'i rgya mtsho'i pha rol </rdg>
+  </app>
+  <app loc="844,848">
+    <lem wit="#Kk-ST">cing</lem>
+    <rdg wit="#Kk-D">mo</rdg>
+  </app>
+  <app loc="855,868">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>gcad du med pa'o</lem>
+      <rdg type="minor" wit="#Kk-ST">gcad du med pa'o</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">dpyod mi nus pa'o/ /</rdg>
+  </app>
+  <app loc="870,874">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>bcom</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        bcom 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">gang gi phyir bcom </rdg>
+  </app>
+  <app loc="882,885">
+    <lem wit="#Kk-ST">gyi</lem>
+    <rdg wit="#Kk-D">de'i</rdg>
+  </app>
+  <app loc="885,890">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>mkhen</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        mkhen 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      mkhyen 
+    </rdg>
+  </app>
+  <app loc="890,893">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pas</lem>
+      <rdg type="minor" wit="#Kk-ST">pas</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa dang brtse ba</rdg>
+  </app>
+  <app loc="912,917">
+    <lem wit="#Kk-ST">thams</lem>
+    <rdg wit="#Kk-D">mtha'</rdg>
+  </app>
+  <app loc="917,920">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>cad</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        cad
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">dag</rdg>
+  </app>
+  <app loc="927,931">
+    <lem wit="#Kk-ST">cing</lem>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="931,936">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>brtse</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        brtse 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="936,939">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>bas</lem>
+      <rdg type="minor" wit="#Kk-ST">bas</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pas/</rdg>
+  </app>
+  <app loc="939,944">
+    <lem wit="#Kk-ST">kyang</lem>
+    <rdg wit="#Kk-D">
+      gang <unclear>yang</unclear>
+    </rdg>
+  </app>
+  <app loc="961,982">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>mtshor bying ba'i 'gro ba</lem>
+      <rdg type="minor" wit="#Kk-ST">mtshor bying ba'i 'gro ba</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      mtsho 
+      gting mtha' med <lb n="3"/>pa 
+    </rdg>
+  </app>
+  <app loc="982,1005">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>skyabs med pa mtha' yas pa la</lem>
+      <rdg type="minor" wit="#Kk-ST"><lb n="3"/>skyabs med pa mtha' yas pa la</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"> skyabs med pa'i 'gro ba  rnams kyis</rdg>
+  </app>
+  <app loc="1022,1049">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>rgyas pa'i phyir su zhig gis de'i</lem>
+      <rdg type="minor" wit="#Kk-ST">rgyas pa'i phyir su zhig gis de'i</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">gang ba  de dag gang gis</rdg>
+  </app>
+  <app loc="1061,1069">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>bgrod par</lem>
+      <rdg type="minor" wit="#Kk-ST">bgrod par</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      sgrol 
+    </rdg>
+  </app>
+  <app loc="1072,1086">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>zhes dgongs pa'o</lem>
+      <rdg type="minor" wit="#Kk-ST">zhes dgongs pa'o</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa</rdg>
+  </app>
+  <app loc="1088,1094">
+    <lem>te ltar</lem>
+    <rdg wit="#Kk-D">
+      
+        
+      
+      de lta bur 
+    </rdg>
+    <rdg wit="#Kk-ST">
+      de ltar 
+    </rdg>
+  </app>
+  <app loc="1104,1108">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>sdig</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        sdig 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">yin pa de ni sdig </rdg>
+  </app>
+  <app loc="1138,1144">
+    <lem wit="#Kk-ST">spangs</lem>
+    <rdg wit="#Kk-D"> rnams spangs </rdg>
+  </app>
+  <app loc="1182,1185">
+    <lem wit="#Kk-ST">par</lem>
+    <rdg wit="#Kk-D">bar</rdg>
+  </app>
+  <app loc="1251,1254">
+    <lem wit="#Kk-ST">gyi</lem>
+    <rdg wit="#Kk-D"> kyi</rdg>
+  </app>
+  <app loc="1254,1258">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>ltag</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        ltag 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      lhag 
+    </rdg>
+  </app>
+  <app loc="1258,1263">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>ma ste</lem>
+      <rdg type="minor" wit="#Kk-ST">ma ste</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">ma  yin te/</rdg>
+  </app>
+  <app loc="1264,1268">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>de ni</lem>
+      <rdg type="minor" wit="#Kk-ST">de ni</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="1268,1274">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>tshogs</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        tshogs
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"><rubt>tshogs</rubt> dang bcas pa </rdg>
+  </app>
+  <app loc="1289,1293">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa la</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        pa la
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">par</rdg>
+  </app>
+  <app loc="1293,1313">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>brita byed pa'i phyir ro</lem>
+      <rdg type="minor" wit="#Kk-ST">brita byed pa'i phyir ro</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">bṛta byas pas so/ /</rdg>
+  </app>
+  <app loc="1315,1342">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>legs pa don du gnyer ba rnams kyis</lem>
+      <rdg type="minor" wit="#Kk-ST">legs pa don du gnyer ba rnams kyis</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="1342,1351">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>'bod pa ste</lem>
+      <rdg type="minor" wit="#Kk-ST">'bod pa ste</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">bod pa dang</rdg>
+  </app>
+  <app loc="1355,1358">
+    <lem wit="#Kk-ST">par</lem>
+    <rdg wit="#Kk-D">pa dang</rdg>
+  </app>
+  <app loc="1358,1371">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>byed pa'i phyir</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        byed pa'i phyir
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">bsngags pa'i don  rnams</rdg>
+  </app>
+  <app loc="1371,1381">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>i las atsa'o</lem>
+      <rdg type="minor" wit="#Kk-ST">i las atsa'o</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">la zhes pas e ra tsa'o/ /</rdg>
+  </app>
+  <app loc="1383,1387">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>kyai</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        kyai
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      kye 
+    </rdg>
+  </app>
+  <app loc="1407,1411">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>gyis</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        gyis
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">kyis</rdg>
+  </app>
+  <app loc="1413,1418">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>bsten</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        bsten 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      bstan 
+    </rdg>
+  </app>
+  <app loc="1421,1429">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>byos shig</lem>
+      <rdg type="minor" wit="#Kk-ST">byos <lb n="5"/>shig</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">bya ba  nyid yin <lb n="5"/>no</rdg>
+  </app>
+  <app loc="1429,1432">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>ces</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        ces
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      zhes 
+    </rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#Kk-p2" source="alignments/Kk-p2.xml"><interp type="normalization">
+  <desc type="tagfilters">
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">corr</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">ex</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">head</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">label</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">note</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">num</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">rt</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">locus</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">metamark</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">supplied</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
+  </desc>
+</interp><listApp>
+  <app loc="0,75">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem> mi phan par yang phan gyur gang de mkhas pa ste// mkhas pa gang zhig mi phan pa la bzod bcas min</lem>
+      <rdg type="minor" wit="#Kk-ST">mi phan par yang phan gyur gang de mkhas pa ste/ mkhas pa gang zhig mi phan pa la bzod bcas min</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D"/>
+  </app>
+  <app loc="85,91">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>de slad</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        de slad
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      du 'phags pa 
+    </rdg>
+  </app>
+  <app loc="91,104">
+    <lem>don gyi mchog ni</lem>
+    <rdg wit="#Kk-D">
+      don dam pa
+    </rdg>
+  </app>
+  <app loc="114,119">
+    <lem wit="#Kk-ST">phyir</lem>
+    <rdg wit="#Kk-D">phyir du</rdg>
+  </app>
+  <app loc="126,130">
+    <lem wit="#Kk-ST">dang</lem>
+    <rdg wit="#Kk-D">ba  dang</rdg>
+  </app>
+  <app loc="130,137">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>blo gros</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        blo gros
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">blos</rdg>
+  </app>
+  <app loc="137,152">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pha rol phyin nyid</lem>
+      <rdg type="minor" wit="#Kk-ST">pha rol phyin nyid</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      pha rol tu son pa
+    </rdg>
+  </app>
+  <app loc="152,158">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>'tshol</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        'tshol 
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">
+      tshol 
+    </rdg>
+  </app>
+  <app loc="161,165">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>byed</lem>
+      <rdg type="minor" wit="#Kk-ST">
+        byed
+      </rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">byed pa  dang</rdg>
+  </app>
+</listApp></standOff></TEI>
