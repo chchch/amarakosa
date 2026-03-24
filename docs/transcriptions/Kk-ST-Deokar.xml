@@ -1939,9 +1939,12 @@ Kk-p1: Kk-D doesn't match alignment.
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
-  <app loc="36,39">
-    <lem wit="#Kk-ST">ste</lem>
-    <rdg wit="#Kk-D"/>
+  <app loc="34,39">
+    <rdgGrp type="lemma" select="#Kk-ST">
+      <lem>pa ste</lem>
+      <rdg type="minor" wit="#Kk-ST">pa ste</rdg>
+    </rdgGrp>
+    <rdg wit="#Kk-D">pa'o</rdg>
   </app>
   <app loc="40,48">
     <rdgGrp type="lemma" select="#Kk-ST">
@@ -1950,7 +1953,7 @@ Kk-p1: Kk-D doesn't match alignment.
         ji skad du
       </rdg>
     </rdgGrp>
-    <rdg wit="#Kk-D">'o de yang</rdg>
+    <rdg wit="#Kk-D">de yang</rdg>
   </app>
   <app loc="60,63">
     <rdgGrp type="lemma" select="#Kk-ST">
